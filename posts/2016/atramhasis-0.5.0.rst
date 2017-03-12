@@ -5,7 +5,7 @@
    :author: Koen Van Daele
    :language: en
 
-Atramhasis v0.5.0 releases
+Atramhasis v0.5.0 released
 ==========================
 
 A new version (0.5.0) of :pypi:`Atramhasis <atramhasis>` has been released.

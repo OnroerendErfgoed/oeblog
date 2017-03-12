@@ -24,6 +24,10 @@ Je resultaten zullen minder exact wat je zocht zijn, maar je zult je al snel
 kunnen verdiepen in de geschiedenis en de architectuur van de omgeving waarin je
 geïnteresseerd bent.
 
+.. image:: geoportaal.png
+
+Alle geografische informatie over onroerend erfgoed kan je vinden op https://geo.onroerenderfgoed.be
+
 Het is natuurlijk leuk is om snel even iets te bekijken op ons Geoportaal
 of een stuk door de inventaris te bladeren, maar misschien is de manier waarop
 wij de informatie presenteren niet ideaal voor de vragen die je zelf voor ogen
