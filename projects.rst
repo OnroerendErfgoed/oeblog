@@ -1,3 +1,5 @@
+.. _projects:
+
 ========
 Projects
 ========
@@ -16,15 +18,21 @@ needs.
 Atramhasis
 ----------
 
-:pypi:`Atramhasis <atramhasis>` is a simple and friendly webbased `SKOS` 
-editor. Written in Python, it's easy to install and customise.
+:pypi:`Atramhasis <atramhasis>` is a simple and friendly webbased `SKOS`
+editor. Written in Python, it's easy to install and customise. Ideal for you if
+you need to maintain your own thesauri or controlled vocabularies. Because the
+cultural heritage sector relies heavily on a few core vocabularies, we have made
+it easy to import concepts from certain well known thesauri like the
+`Art and Architecture Thesaurus (AAT)` and the `Thesaurus of Geographic Names (TGN)`
+vocabularies published by the Getty Research Institute at
+`http://vocab.getty.edu <http://vocab.getty.edu>`_.
 
 Augeias
 -------
 
-:pypi:`Augeais` is a RESTful, webapplication written in Python that allows you 
-to store digital objects in an object store. While it allows you to communicate 
-with your objects as a service, it also decouples the storage implementation 
+:pypi:`Augeais` is a RESTful, webapplication written in Python that allows you
+to store digital objects in an object store. While it allows you to communicate
+with your objects as a service, it also decouples the storage implementation
 from the interface.
 
 Uriregistry
@@ -49,6 +57,6 @@ CAPAKEY services by `Informatie Vlaanderen <https://www.agiv.be>`_.
 Language-tags
 -------------
 
-:pypi:`Language-tags <language-tags>` is a Python library for handling IANA 
+:pypi:`Language-tags <language-tags>` is a Python library for handling IANA
 Language Tags.
 
