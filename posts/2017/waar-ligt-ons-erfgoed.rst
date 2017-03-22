@@ -1,7 +1,8 @@
-.. post::
-   :tags: GIS
+.. post:: 2017-03-14
+   :tags: geoportaal, geoserver
    :author: Koen Van Daele
    :language: nl
+   :category: GIS
 
 Waar ligt ons Erfgoed?
 ======================
@@ -26,7 +27,7 @@ geïnteresseerd bent.
 
 .. image:: geoportaal.png
 
-Alle geografische informatie over onroerend erfgoed kan je vinden op https://geo.onroerenderfgoed.be
+*Alle geografische informatie over onroerend erfgoed kan je vinden op https://geo.onroerenderfgoed.be*
 
 Het is natuurlijk leuk is om snel even iets te bekijken op ons Geoportaal
 of een stuk door de inventaris te bladeren, maar misschien is de manier waarop
@@ -57,5 +58,5 @@ gebruier of client stuurt een geometrie naar de webservice en de webservice laat
 weten welk erfgoed er deels of geheel in deze geometrie ligt. Dit resultaat is
 een simpele `JSON` datastructuur waarin je voor elk object informatie
 krijgt zoals een `id`, een `uri`, een `type` en de volledige `geometrie`.
-Volgende keer (:ref:`geozoekdiensten`) vertellen we je hoe je gebruik kunt maken
+Een volgende keer vertellen we je hoe je gebruik kunt maken
 van deze zoekdienst.

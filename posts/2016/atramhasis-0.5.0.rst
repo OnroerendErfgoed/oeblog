@@ -1,7 +1,7 @@
 
-.. post:: Sep 14, 2016
+.. post:: 2016-09-14
    :tags: atramhasis
-   :category: releases
+   :category: releases, SKOS
    :author: Koen Van Daele
    :language: en
 
