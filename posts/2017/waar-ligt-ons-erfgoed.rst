@@ -1,8 +1,8 @@
-.. post:: 2017-03-14
-   :tags: geoportaal, geoserver
+.. post:: 2017-06-02
+   :category: GIS
+   :tags: geoportaal, geoserver, geozoekdiensten
    :author: Koen Van Daele
    :language: nl
-   :category: GIS
 
 Waar ligt ons Erfgoed?
 ======================
@@ -57,6 +57,10 @@ is om één enkele vraag te beantwoorden: `Wat ligt er in een bepaald gebied?`. 
 gebruier of client stuurt een geometrie naar de webservice en de webservice laat
 weten welk erfgoed er deels of geheel in deze geometrie ligt. Dit resultaat is
 een simpele `JSON` datastructuur waarin je voor elk object informatie
-krijgt zoals een `id`, een `uri`, een `type` en de volledige `geometrie`.
-Een volgende keer vertellen we je hoe je gebruik kunt maken
+krijgt zoals een `id`, een `uri`, een `type` en de volledige `geometrie`. We
+gebruiken deze zoekdiensten nu al een tijdje in onze eigen toepassingen, maar we
+willen ze nu met jullie delen. Daarom dat we ze in juni voor jullie beschikbaar
+maken als een publieke Beta waar jullie nog feedback op kunnen geven.
+
+Een volgende keer vertellen we je exact hoe je gebruik kunt maken
 van deze zoekdienst.

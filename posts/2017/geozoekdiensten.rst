@@ -1,14 +1,13 @@
-.. post:: 2017-03-22
+.. post::
    :category: services, GIS
+   :tags: goezoekdiensten
    :author: Koen Van Daele
    :language: nl
 
 Geozoekdiensten. Wat ligt er hier?
 ==================================
 
-*WIP Bevat nog fouten*
-
-Zoals beloofd (:ref:`waar-ligt-ons-erfgoed`) geven we je graag wat meer informatie over onze
+Zoals beloogfd (:ref:`waar-ligt-ons-erfgoed`) geven we je graag wat meer informatie over onze
 Geozoekdiensten. Deze zoekdiensten bestaan momenteel uit één enkele webservice 
 die uitermate geschikt is om één enkele vraag te beantwoorden: `Wat ligt er in 
 een bepaald gebied?`. De gebruiker of client stuurt een geometrie naar de 
@@ -52,19 +51,19 @@ Standaard zal de service naar alle soorten objecten zoeken, maar je kan hier ook
 in filteren met de parameter `categorie`. Hierin heb je verschillende
 mogelijkheden:
 
-- Erfgoedobjecten: Deze categorie bevat alle inhoudelijke objecten die met
+- **Erfgoedobjecten**: Deze categorie bevat alle inhoudelijke objecten die met
   erfgoed te maken hebben. Dit zijn de `wetenschappelijke inventarissen`.
-- Aanduidingsobjecten: De aanduidingsobjecten of aanduidingen zijn de juridische
-  verankeringen van erfgoedobjecten. Deze kunnen zowel beschermd als vastgesteld
-  zijn (wat je dan weer kunt afleiden uit de URI's van de types.
-- Plannen: Deze categorie bevat nu enkel de beheerplannen en zal op termijn
-  uitgebreid worden met de erfgoedrichtplannen 
+- **Aanduidingsobjecten**: De aanduidingsobjecten of aanduidingen zijn de juridische
+  verankeringen van erfgoedobjecten. Deze kunnen zowel `beschermd` als `vastgesteld`
+  zijn (wat je dan weer kunt afleiden uit de URI's van de types).
+- **Plannen**: Deze categorie bevat nu enkel de `beheersplannen` en zal op termijn
+  uitgebreid worden met de `erfgoedrichtplannen` 
 
 Stel dat je enkel de objecten wenst te zien die aangeduid zijn:
 
 .. code-block:: bash
 
-    $ curl -X GET https://geo.onroerenderfgoed.be/zoekdiensten/afbakeningen?&buffer=100&geef_geomtrie=0&categorie=aanduidingsobjecten
+    $ curl -X GET https://geo.onroerenderfgoed.be/zoekdiensten/afbakeningen?&buffer=100&geef_geometrie=0&categorie=aanduidingsobjecten
 
 In dat geval krijg je dus enkel beschermingen, vaststellingen of
 erfgoedlandschappen te zien.

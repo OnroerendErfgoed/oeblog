@@ -1,7 +1,6 @@
-
 .. post:: 2016-09-14
+   :category: releases, thesaurus, open source
    :tags: atramhasis
-   :category: releases, SKOS
    :author: Koen Van Daele
    :language: en
 
