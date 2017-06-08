@@ -43,3 +43,4 @@ agentschap <https://www.onroerenderfgoed.be>`_.
 
    about.rst
    projects.rst
+   publications.rst
