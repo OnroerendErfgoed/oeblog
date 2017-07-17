@@ -25,7 +25,8 @@ Master Dissertation, Universiteit Gent. (`Full Text
 
 **Meylemans, E., De Wilde, D. and Van Daele, K. 2008:** "Lithica: een databank
 voor de registratie van lithisch materiaal", Notae Praehistoricae, 28, pp.
-143-145.
+143-145. (`Full Text
+<http://www.naturalsciences.be/mars/groups/fnrs-contact-group/notae-praehistoricae/resolveUid/32e9e2b4ff1d5fdd2dc58a06e965690e>`_)
 
 **Van Daele, K., Meylemans, E. and De Meyer, M. 2004:**  "De Centrale
 Archeologische Inventaris: een databank van archeologische vindplaatsen", in
