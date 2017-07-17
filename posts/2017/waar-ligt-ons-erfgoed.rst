@@ -29,7 +29,7 @@ geïnteresseerd bent.
 
 *Alle geografische informatie over onroerend erfgoed kan je vinden op https://geo.onroerenderfgoed.be*
 
-Het is natuurlijk leuk is om snel even iets te bekijken op ons Geoportaal
+Het is natuurlijk leuk om snel even iets te bekijken op ons Geoportaal
 of een stuk door de inventaris te bladeren, maar misschien is de manier waarop
 wij de informatie presenteren niet ideaal voor de vragen die je zelf voor ogen
 hebt. Je kunt natuurlijk zelf aan de slag met de gegevens die wij aanbieden. Zo
@@ -59,8 +59,7 @@ weten welk erfgoed er deels of geheel in deze geometrie ligt. Dit resultaat is
 een simpele `JSON` datastructuur waarin je voor elk object informatie
 krijgt zoals een `id`, een `uri`, een `type` en de volledige `geometrie`. We
 gebruiken deze zoekdiensten nu al een tijdje in onze eigen toepassingen, maar we
-willen ze nu met jullie delen. Daarom dat we ze in juni voor jullie beschikbaar
-maken als een publieke Beta waar jullie nog feedback op kunnen geven.
+willen ze nu met jullie delen.
 
 Een volgende keer vertellen we je exact hoe je gebruik kunt maken
 van deze zoekdienst.
