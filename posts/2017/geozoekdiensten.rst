@@ -1,4 +1,4 @@
-.. post:: 2017-07-19
+.. post::
    :category: services, GIS
    :tags: geozoekdiensten
    :author: Koen Van Daele
