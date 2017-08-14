@@ -97,7 +97,7 @@ Ben je benieuwd naar deze nieuwe service en wil je er mee aan de slag, dan kan
 dat. De service is vrij toegankelijk voor iedereen en we kunnen het hergebruik
 alleen maar aanmoedigen. Om makkelijk te zien wat de service kan, raden we
 onze levende api documentatie aan. Deze kan je raadplegen op
-https://geo.onroerenderfgoed/zoekdiensten/api_doc
+https://geo.onroerenderfgoed.be/zoekdiensten/api_doc
 
 De geozoekdiensten zijn een vrij simpele webservice die heel veel informatie kan
 bieden. We hopen dan ook dat deze voor de buitenwereld even nuttig zal zijn als

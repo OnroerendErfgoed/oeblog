@@ -61,5 +61,5 @@ krijgt zoals een `id`, een `uri`, een `type` en de volledige `geometrie`. We
 gebruiken deze zoekdiensten nu al een tijdje in onze eigen toepassingen, maar we
 willen ze nu met jullie delen.
 
-Een volgende keer vertellen we je exact hoe je gebruik kunt maken
+In :ref:`geozoekdiensten` vertellen we je exact hoe je gebruik kunt maken
 van deze zoekdienst.
