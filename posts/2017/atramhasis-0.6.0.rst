@@ -1,4 +1,4 @@
-.. post::
+.. post:: 2017-08-24
    :category: releases, thesaurus, open source
    :tags: atramhasis
    :author: Koen Van Daele
