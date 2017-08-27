@@ -1,6 +1,14 @@
 Publications
 ============
 
+**Mortier, S., Van Daele, K. and Meganck, L. 2017** "Calling it what it is.
+Thesauri in the Flanders Heritage Agency: History, Importance, Use and
+Technological Advances", in ISPRS Annals of the Photogrammetry, Remote Sensing
+and Spatial Information Sciences, Volume IV-2/W2, 2015 25th International CIPA Symposium 2015, 31
+August – 04 September 2015, Taipei, Taiwan, pp. 151-356. (`More information
+<httpis://doi.org/10.5194/isprs-annals-IV-2-W2-151-2017>`_, `Full Text
+<https://www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net/IV-2-W2/151/2017/isprs-annals-IV-2-W2-151-2017.pdf>`_)
+
 **Van Daele, K., Meganck, L. and Mortier, S. 2016:** "On data-driven systems
 and system-driven data: twenty years of the Flanders heritage inventory", in
 Journal of Cultural Heritage Management and Sustainable Development, 6(2), pp.
