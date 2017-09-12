@@ -1,6 +1,8 @@
 Publications
 ============
 
+.. _movdme2017:
+
 **Mortier, S., Van Daele, K. and Meganck, L. 2017** "Calling it what it is.
 Thesauri in the Flanders Heritage Agency: History, Importance, Use and
 Technological Advances", in ISPRS Annals of the Photogrammetry, Remote Sensing
@@ -8,10 +10,14 @@ and Spatial Information Sciences, Volume IV-2/W2. (`More information
 <https://doi.org/10.5194/isprs-annals-IV-2-W2-151-2017>`_, `Full Text
 <https://www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net/IV-2-W2/151/2017/isprs-annals-IV-2-W2-151-2017.pdf>`_)
 
+.. _vdmemo2016:
+
 **Van Daele, K., Meganck, L. and Mortier, S. 2016:** "On data-driven systems
 and system-driven data: twenty years of the Flanders heritage inventory", in
 Journal of Cultural Heritage Management and Sustainable Development, 6(2), pp.
 153-165. (`More information <http://www.emeraldinsight.com/doi/abs/10.1108/JCHMSD-01-2016-0004>`_)
+
+.. _vdmemo2015:
 
 **Van Daele, K., Meganck, L. and Mortier, S. 2015:** "Data-driven systems and
 system-driven data: the story of the Flanders Heritage Inventory (1995-2015)",
@@ -21,19 +27,27 @@ August – 04 September 2015, Taipei, Taiwan, pp. 323-327. (`More information
 <http://dx.doi.org/10.5194/isprsannals-II-5-W3-323-2015>`_, `Full Text
 <http://www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net/II-5-W3/323/2015/isprsannals-II-5-W3-323-2015.pdf>`_)
 
+.. _vd2014:
+
 **Van Daele, K. 2014:** "Imperfect Temporal information in data sets", in
 *Archaeology in the Digital Era. Papers from the 40th Annual Conference of
 Computer Applications and Quantitative Methods in Archaeology (CAA),
 Southhampton 26-29 March 2012*, 2, Amsterdam Universitry Press, p. 474-479.
 
+.. _vd2010:
+
 **Van Daele, K. 2010:** "Imperfecte tijdsmodellering in historische databanken",
 Master Dissertation, Universiteit Gent. (`Full Text 
 <http://lib.ugent.be/fulltxt/RUG01/001/418/820/RUG01-001418820_2010_0001_AC.pdf>`_)
+
+.. _medwdv2008:
 
 **Meylemans, E., De Wilde, D. and Van Daele, K. 2008:** "Lithica: een databank
 voor de registratie van lithisch materiaal", Notae Praehistoricae, 28, pp.
 143-145. (`Full Text
 <http://www.naturalsciences.be/mars/groups/fnrs-contact-group/notae-praehistoricae/resolveUid/32e9e2b4ff1d5fdd2dc58a06e965690e>`_)
+
+.. _vdmedm2004:
 
 **Van Daele, K., Meylemans, E. and De Meyer, M. 2004:**  "De Centrale
 Archeologische Inventaris: een databank van archeologische vindplaatsen", in
