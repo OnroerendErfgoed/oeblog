@@ -1,20 +1,21 @@
 .. post:: 2017-09-14
    :category: thesaurus
-   :tags: atramhasis, vocabulary
+   :tags: vocabulary, indexing, search
    :author: Koen Van Daele
    :language: en
 
-What's a thesarus
-=================
+What's a thesaurus?
+===================
 
 We recently released a new version of Atramhasis (:ref:`atramhasis-0.6.0`), our
 web based thesaurus editor. But what is a thesaurus and why would a heritage
 organisation want one?
 
-Our colleagues at `Historic England <http://>`_ define a thesaurus as **A structured 
-wordlist used to standardize terminology. It is used to assist in indexing and retrieving
-information within databases that make use of the same terminology**. A lot of
-opportunities arise from structuring related terms.
+Our colleagues at `Historic England <http://www.historicengland.org.uk>`_ define 
+a thesaurus as *A structured wordlist used to standardize terminology. It is used 
+to assist in indexing and retrieving information within databases that make use 
+of the same terminology*. A lot of opportunities arise from structuring related
+terms.
 
 First of all, it is possible to express equivalencies. Defining what terms are
 equivalent makes it easier to find what one is looking for. This used to be done 
@@ -31,13 +32,14 @@ narrower than the first one. This makes it possibkme in a thesaurus to
 state that a cathedral is a church and that a church is a religious building.
 From this we can conclude that cathedrals are religious buildings as well. It is 
 important to note that not all hierarchical relations in thesauri are of the 
-**is a** type. **Is part of** and **Is an instance of** relations exist 
+*is a* type. *Is part of* and *Is an instance of* relations exist 
 as well. They do complicate certain matters, so be careful when considering them.
-Consult XXX to see how they affect the whole of the relations between terms in
-your thesaurus.
+Consult `On the composition of ISO 25964 hierarchical relations (BTG, BTP, BTI)
+<https://link.springer.com/article/10.1007/s00799-015-0162-2>`_ to see how they 
+affect the whole of the relations between terms in your thesaurus.
 
 The final type of relationship is the associative relationship. This is the
-`softest` relationship, stating that two terms or concepts are related. This
+*softest* relationship, stating that two terms or concepts are related. This
 might be *coal mine* is related to *miner’s houses* because in Flanders every
 coal mine had it’s own little town where all the mineworkers lived together.
 
@@ -67,10 +69,10 @@ or as *water tricks*.
 
 Interestingly enough, those *water tricks* also demonstrate another handy
 feature of our thesauri. If you look at the record for `water tricks
-<https://id.erfgoed.net/thesauri/erfgoedtypes/1524`_ you will notice we call
+<https://id.erfgoed.net/thesauri/erfgoedtypes/1524>`_ you will notice we call
 them *bedriegertjes* in Dutch, but do not actually have an English label for
 them. Luckily, we have linked our concept of *bedriegertjes* with the concept of
-*bedreigertjes* in the `Art & Architecture Thesaurus <http://www.getty.edu/research/tools/vocabularies/aat/>`_. 
+*bedriegertjes* in the `Art & Architecture Thesaurus <http://www.getty.edu/research/tools/vocabularies/aat/>`_. 
 This huge thesaurus tells us that *bedriegertjes* are known in English as *water
 tricks* or *joke fountains*.. It even tells us what they are called in German
 and Spanish. Opening us up to wealth of possible interactions with other
@@ -79,4 +81,6 @@ systems.
 In the end, theauri are a means. Not an end. Our prime concern is managing
 heritage, not building thesauri. But they do help us tremendously in defining
 what that heritage is, in searching through that heritage and in linking the
-heritage on our local level to the transnational level.
+heritage on our local level to the transnational level. If you want to know more
+about our thesauri, have a look at :ref:`Calling it what it is <movdme2017>`,
+where we explain how we built them and provide you with some do's and don'ts.
