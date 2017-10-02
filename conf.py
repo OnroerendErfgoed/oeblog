@@ -38,7 +38,8 @@ blog_baseurl = u'True'
 # to refer to the author.  Default is ``{}``.
 blog_authors = {
     'Flanders Heritage Agency': ('Flanders Heritage Agency', 'https://www.onroerenderfgoed.be'),
-    'Koen Van Daele': ('Koen van Daele', None)
+    'Koen Van Daele': ('Koen van Daele', None),
+    'Tinne Cahy': ('Tinne Cahy', 'http://geosolutions.be')
 }
 
 
