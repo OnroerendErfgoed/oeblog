@@ -50,7 +50,7 @@ In volgend voorbeeld zal de gemeente Edegem gebruikt worden. Dit allemaal in een
 kort scriptje hieronder voorgesteld. Eerst worden alle erfgoedobjecten en
 aanduidingsobjecten opgevraagd binnen de gemeente via de geozoekdiensten. Er
 wordt een basis configuratie opgesteld om de afbeelding aan te maken: achtergrondlaag,
-tekst, breedte en hoogte afbeelding. De geometrie van elk object wordt als een afzondelijke
+tekst, breedte en hoogte afbeelding. De geometrie van elk object wordt als een afzonderlijke
 laag toegevoegd aan de configuratie. Ten slotte wordt de configuratie meegegeven
 aan de statische kaartgenerator die op zijn beurt de afbeelding zal teruggeven.
 
@@ -65,7 +65,6 @@ beschikking stelt.
     import json
     from pyramid.compat import text_
     import requests
-    from copy import deepcopy
     from static_map_generator.generator import Generator
 
 
@@ -129,6 +128,26 @@ erfgoedobject bij op de kaart geplaatst.
 
 .. code-block::python
 
+    # -*- coding: utf-8 -*-
+    import os
+    import json
+    from pyramid.compat import text_
+    import requests
+    from copy import deepcopy
+    from static_map_generator.generator import Generator
+
+
+    with open(os.path.join(os.path.dirname(__file__), 'Edegem.json'), 'rb') as f:
+        edegem_geojson = json.loads(text_(f.read()))
+
+
+    heritage_objects = requests.post('https://geo.onroerenderfgoed.be/zoekdiensten/afbakeningen',
+                                 json={
+                                     "categorie": ["erfgoedobjecten", "aanduidingsobjecten"],
+                                     "geometrie": edegem_geojson
+                                 },
+                                 headers={"Content-type": "application/json", "Accept": "application/json"}).json()
+
     # Make a map of each heritage object in the municipality
     # As an example only show the first
 
@@ -182,7 +201,7 @@ Vlaanderen`_ `open data`_ zijn en dus vrij ter jullie beschikking staan.
 Wil je zelf aan de slag met de kaartgenerator, kijk dan naar de `statische
 kaartgenerator`_ op Github. Meer informatie over de kan je vinden in deze
 blog (:ref:`geozoekdiensten`) of op de levende API docs op
-https://geo.onroerenderfgoed.be/zoekdiensten/api_do
+https://geo.onroerenderfgoed.be/zoekdiensten/api_doc
 
 *Fort 5*
 
