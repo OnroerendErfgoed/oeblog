@@ -63,13 +63,12 @@ beschikking stelt.
     # -*- coding: utf-8 -*-
     import os
     import json
-    from pyramid.compat import text_
     import requests
     from static_map_generator.generator import Generator
 
 
     with open(os.path.join(os.path.dirname(__file__), 'Edegem.json'), 'rb') as f:
-        edegem_geojson = json.loads(text_(f.read()))
+        edegem_geojson = json.loads(f.read())
 
 
     heritage_objects = requests.post('https://geo.onroerenderfgoed.be/zoekdiensten/afbakeningen',
@@ -131,14 +130,13 @@ erfgoedobject bij op de kaart geplaatst.
     # -*- coding: utf-8 -*-
     import os
     import json
-    from pyramid.compat import text_
     import requests
     from copy import deepcopy
     from static_map_generator.generator import Generator
 
 
     with open(os.path.join(os.path.dirname(__file__), 'Edegem.json'), 'rb') as f:
-        edegem_geojson = json.loads(text_(f.read()))
+        edegem_geojson = json.loads(f.read())
 
 
     heritage_objects = requests.post('https://geo.onroerenderfgoed.be/zoekdiensten/afbakeningen',
