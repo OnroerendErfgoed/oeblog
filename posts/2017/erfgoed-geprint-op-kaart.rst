@@ -58,59 +58,8 @@ De afbakening van Edegem halen we hier uit een GeoJson bestand dat we voordien
 hebben aangemaakt op basis van de gegevens die `Informatie Vlaanderen`_ ter
 beschikking stelt.
 
-.. code-block::python
-
-    # -*- coding: utf-8 -*-
-    import os
-    import json
-    import requests
-    from static_map_generator.generator import Generator
-
-
-    with open(os.path.join(os.path.dirname(__file__), 'Edegem.json'), 'rb') as f:
-        edegem_geojson = json.loads(f.read())
-
-
-    heritage_objects = requests.post('https://geo.onroerenderfgoed.be/zoekdiensten/afbakeningen',
-                                 json={
-                                     "categorie": ["erfgoedobjecten", "aanduidingsobjecten"],
-                                     "geometrie": edegem_geojson
-                                 },
-                                 headers={"Content-type": "application/json", "Accept": "application/json"}).json()
-
-    municipality_body = {
-        "params": {
-            "width": 1000,
-            "height": 1000
-        },
-        "layers": [
-            {
-                "type": "text",
-                "text": "© GRB basiskaart, informatie Vlaanderen",
-                "gravity": "south_east",
-                "font_size": 4
-            },
-            {
-                "type": "wms",
-                "url": "http://geoservices.informatievlaanderen.be/raadpleegdiensten/GRB-basiskaart-grijs/wms?",
-                "layers": "GRB_BSK_GRIJS"
-            }
-        ]
-    }
-
-    # Make a map of the municipality to show all the heritage objects
-
-    for obj in heritage_objects:
-        municipality_body['layers'].append(
-            {
-                "type": "geojson",
-                "geojson": obj["geometrie"]
-            }
-        )
-
-    with open(os.path.join(os.path.dirname(__file__), 'maps/Edegem/Edegem.png'), 'wb') as f:
-        f.write(Generator.generate_stream(municipality_body))
-
+.. literalinclude:: smg_edegem.py
+    :language: python
 
 Zo bekom je een mooie kaart van al het erfgoed dat wij kennen in de gemeente
 Edegem.
@@ -125,71 +74,8 @@ Dit wordt voorgesteld in volgend script. Bij wijze van voorbeeld, wordt er hier
 een andere andere achtergrondlaag gebruikt en wordt telkens de naam van het
 erfgoedobject bij op de kaart geplaatst.
 
-.. code-block::python
-
-    # -*- coding: utf-8 -*-
-    import os
-    import json
-    import requests
-    from copy import deepcopy
-    from static_map_generator.generator import Generator
-
-
-    with open(os.path.join(os.path.dirname(__file__), 'Edegem.json'), 'rb') as f:
-        edegem_geojson = json.loads(f.read())
-
-
-    heritage_objects = requests.post('https://geo.onroerenderfgoed.be/zoekdiensten/afbakeningen',
-                                 json={
-                                     "categorie": ["erfgoedobjecten", "aanduidingsobjecten"],
-                                     "geometrie": edegem_geojson
-                                 },
-                                 headers={"Content-type": "application/json", "Accept": "application/json"}).json()
-
-    # Make a map of each heritage object in the municipality
-    # As an example only show the first
-
-    body = {
-        "params": {
-            "width": 1000,
-            "height": 1000
-        },
-        "layers": [
-            {
-                "type": "text",
-                "text": "© GRB basiskaart, informatie Vlaanderen",
-                "gravity": "south_east",
-                "font_size": 4
-            },
-            {
-                "type": "wms",
-                "url": "http://geoservices.informatievlaanderen.be/raadpleegdiensten/omwrgbmrvl/wms?",
-                "layers": "Ortho"
-            }
-        ]
-    }
-
-    for obj in heritage_objects:
-        if "Polygon" in obj["geometrie"]["type"]:
-            obj_body = deepcopy(body)
-            obj_body['layers'].append(
-                {
-                    "type": "geojson",
-                    "geojson": obj["geometrie"]
-                }
-            )
-            obj_body['layers'].append(
-                {
-                    "type": "text",
-                    "text": obj["naam"],
-                    "gravity": "north_west",
-                    "font_size": 6
-                }
-            )
-
-            filename = obj["naam"].replace(" ", "_").strip() + '.png'
-            with open(os.path.join(os.path.dirname(__file__), 'maps/Edegem', filename), 'wb') as f:
-                f.write(Generator.generate_stream(obj_body))
+.. literalinclude:: smg_edegem_erfgoedobjecten.py
+    :language: python
 
 Zoals je hieronder kunt zien beschikken we nu over een kaartje per object uit de
 inventaris. Het staat je nog vrij om die allemaal af te drukken of nog verder te
