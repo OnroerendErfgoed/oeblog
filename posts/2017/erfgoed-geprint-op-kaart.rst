@@ -58,7 +58,7 @@ De afbakening van Edegem halen we hier uit een GeoJson bestand dat we voordien
 hebben aangemaakt op basis van de gegevens die `Informatie Vlaanderen`_ ter
 beschikking stelt.
 
-.. code-block::python
+.. code-block:: python
 
     # -*- coding: utf-8 -*-
     import os
@@ -125,7 +125,7 @@ Dit wordt voorgesteld in volgend script. Bij wijze van voorbeeld, wordt er hier
 een andere andere achtergrondlaag gebruikt en wordt telkens de naam van het
 erfgoedobject bij op de kaart geplaatst.
 
-.. code-block::python
+.. code-block:: python
 
     # -*- coding: utf-8 -*-
     import os
