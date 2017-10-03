@@ -1,4 +1,4 @@
-.. post:: 2017-10
+.. post:: 2017-10-03
    :category: services, GIS
    :tags: static_map_generator, geozoekdiensten
    :author: Tinne Cahy
