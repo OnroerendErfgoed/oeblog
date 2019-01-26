@@ -1,6 +1,14 @@
 Publications
 ============
 
+.. _vdvemome2018:
+
+**Van Daele, K., Vermeyen, M., Mortier, S. and Meganck, L. 2018** "When Data 
+Meets the Enterprise: How Flanders Heritage Agency Turned a Merger of
+Organisations into a Confluence of Information", in *Oceans of Data. Proceedings 
+of the 44th Conference on Computer Applications and Quantitative Methods in Archaeology, 
+Oslo 30 March - 3 April 2016*, Archaeopress, Owford, pp.273-283. (:download:`Full Text <files/WhenDataMeetsTheEnterprise.pdf>`)
+
 .. _movdme2017:
 
 **Mortier, S., Van Daele, K. and Meganck, L. 2017** "Calling it what it is.
@@ -32,7 +40,7 @@ August – 04 September 2015, Taipei, Taiwan, pp. 323-327. (`More information
 **Van Daele, K. 2014:** "Imperfect Temporal information in data sets", in
 *Archaeology in the Digital Era. Papers from the 40th Annual Conference of
 Computer Applications and Quantitative Methods in Archaeology (CAA),
-Southhampton 26-29 March 2012*, 2, Amsterdam Universitry Press, p. 474-479.
+Southhampton 26-29 March 2012*, 2, Amsterdam Universitry Press, pp. 474-479.
 
 .. _vd2010:
 
