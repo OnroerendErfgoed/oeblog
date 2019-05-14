@@ -178,7 +178,6 @@ extensions = [
     'alabaster',
     'ablog',
     'sphinxcontrib.httpdomain',
-    'sphinxcontrib.cheeseshop'
 ]
 
 # Add any paths that contain templates here, relative to this directory.

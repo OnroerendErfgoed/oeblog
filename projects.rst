@@ -18,7 +18,7 @@ needs.
 Atramhasis
 ----------
 
-:pypi:`Atramhasis <atramhasis>` is a simple and friendly webbased `SKOS`
+`Atramhasis <https://github.com/OnroerendErfgoed/atramhasis>`_ is a simple and friendly webbased `SKOS`
 editor. Written in Python, it's easy to install and customise. Ideal for you if
 you need to maintain your own thesauri or controlled vocabularies. Because the
 cultural heritage sector relies heavily on a few core vocabularies, we have made
@@ -30,16 +30,16 @@ vocabularies published by the Getty Research Institute at
 Augeias
 -------
 
-:pypi:`Augeais` is a RESTful, webapplication written in Python that allows you
-to store digital objects in an object store. While it allows you to communicate
-with your objects as a service, it also decouples the storage implementation
-from the interface.
+`Augeais <https://github.com/OnroerendErfgoed/augeias>`_ is a RESTful, webapplication 
+written in Python that allows you to store digital objects in an object store. While 
+it allows you to communicate with your objects as a service, it also decouples the 
+storage implementation from the interface.
 
 Uriregistry
 -----------
 
-:pypi:`Uriregisty <uriregistry>` is a simple Python application that tracks
-where a certain `URI` is being used.
+`Uriregisty <https://github.com/OnroerendErfgoed/uriregistry>`_ is a simple Python 
+application that tracks where a certain `URI` is being used.
 
 
 Libraries
@@ -51,12 +51,12 @@ These are being used in our own applications and might be of use to you as well.
 CRABpy
 ------
 
-:pypi:`CRABpy <crabpy>` is a Python library to facilitate calls to the CRAB and
+`CRABpy <https://github.com/OnroerendErfgoed/crabpy>`_ is a Python library to facilitate calls to the CRAB and
 CAPAKEY services by `Informatie Vlaanderen <https://www.agiv.be>`_.
 
 Language-tags
 -------------
 
-:pypi:`Language-tags <language-tags>` is a Python library for handling IANA
+`Language-tags <https://github.com/OnroerendErfgoed/language-tags>`_ is a Python library for handling IANA
 Language Tags.
 
