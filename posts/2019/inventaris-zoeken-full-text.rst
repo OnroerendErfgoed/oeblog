@@ -1,5 +1,5 @@
 .. post::
-   :category: services
+   :category: services, inventory
    :tags: inventaris
    :author: Koen Van Daele
    :language: nl

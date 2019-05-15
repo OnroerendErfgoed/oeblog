@@ -1,5 +1,5 @@
-.. post::
-   :category: services
+.. post:: 2019-05-15
+   :category: services, inventory
    :tags: inventaris
    :author: Koen Van Daele
    :language: nl
