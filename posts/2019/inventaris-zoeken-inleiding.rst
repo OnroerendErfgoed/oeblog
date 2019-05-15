@@ -47,7 +47,11 @@ een relatief simpele en sterk begeleide manier je zoekparameters ingeven. We
 geven je voorbeeldlijstjes met gemeente- en straatnamen zodat je die niet van
 buiten hoeft te kennen. Het nadeel van een UI is dat deze duur is om te
 ontwikkelen. Het is dan ook verre van
-evident om complexe zoekopdrachten in zo'n formulier te verwerken.
+evident om complexe zoekopdrachten in zo'n formulier te verwerken. 
+
+.. image:: erfgoedobjecten_zoeken.png
+
+*Via de User Interface kan je vlot simpele zoekopdrachten ingeven*
 
 De service is een door machines bevraagbare dienst waaraan we vragen kunnen
 stellen. De UI doet eigenlijk niet meer dan een gebruiker helpen bij het
