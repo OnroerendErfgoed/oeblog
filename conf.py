@@ -194,7 +194,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Flanders Heritage - Team Information'
-copyright = u'2016-2017, Flanders Heritage Agency'
+copyright = u'2016-2019, Flanders Heritage Agency'
 author = u'Flanders Heritage Agency'
 
 # The version info for the project you're documenting, acts as replacement for
