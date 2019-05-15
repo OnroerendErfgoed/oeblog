@@ -1,5 +1,5 @@
 .. post::
-   :category: services, inventaris
+   :category: services
    :tags: inventaris
    :author: Koen Van Daele
    :language: nl
@@ -7,9 +7,10 @@
 Full text zoeken in de inventaris
 =================================
 
-Sinds 13 mei staat er een gloednieuwe inventaris op https://inventaris.onroerenderfgoed.be.
+Sinds `13 mei <https://www.onroerenderfgoed.be/nieuws/inventaris-onroerend-erfgoed-vernieuwd>`_
+staat er een gloednieuwe inventaris op https://inventaris.onroerenderfgoed.be.
 Zoals altijd is het even aanpassen. Omdat verandering altijd even wennen is, lijsten we
-op onze IT blog de voornaamste mogelijkheden qua zoeken op. Gisteren 
+op onze IT blog de voornaamste mogelijkheden qua zoeken op. De vorige keer 
 (:ref:`inventaris-zoeken-inleiding`) gaven we een aantal algemene principes mee,
 vandaag verdiepen we ons in full-text zoeken. 
 
@@ -78,31 +79,51 @@ complexere combinaties van zoektermen toepassen ook. Stel dat we interesse
 hebben in de Vismarkt van Brugge of Gent. Als we zoeken naar `vismarkt brugge
 gent`, dan zoeken we objecten waarin alle drie die termen voorkomen. Niet echt
 wat we zochten, want die van Brugge maakt geen melding van die van Gent en die
-van Gent niet van Brugge. We kunnen proberen met `vismarkt + brugge | gent`. Nu
-krijgen we heel veel resultaten om we eigenlijk gezocht hebben op objecten over
-de vismarkt in Brugge of objecten in Gent. We kunnen wel zoektermen groeperen
-door haakjes `()` te gebruiken. Zo kunnen we zoeken naar `vismarkt +
+van Gent niet van Brugge. Dus we krijgen geen van de door ons gewenste
+vismarkten. We kunnen proberen met `vismarkt + brugge | gent`. Nu
+krijgen we heel veel resultaten omdat we eigenlijk gezocht hebben op objecten over
+de vismarkt in Brugge, of objecten in Gent. Geen nodd, we kunnen wel zoektermen
+groeperen door haakjes `()` te gebruiken. Zo kunnen we zoeken naar `vismarkt +
 (brugge|gent)` om fiches te vinden over de `vismarkt` waarin ook nog `Brugge`
 of `Gent` voorkomen.
 
 Tenslotte kunnen we soms ook wel eens willen zoeken op een deel van een woord.
 Stel dat we iets zoeken over gedenkstenen, gedenkplaten of gelijkaardig, dan
 kunnen we zoeken aanr `gedenk*`. Dit kan prima gecombineerd worden met de
-vorige operatoren, dus iets zoals `"enenveertig gedenk*" | herdenk*` kan ons
-iets leren over eneveertig gedenkstenen of allerhanden herdenkingsbomen. Denk
-er wel aan dat het `*` teken enkel op het einde van een zoekterm kan gebruikt
-worden omwille van de performantie van zoekopdrachten.
+vorige operatoren, dus met `gedenk* | herdenk*` komen we allerlei te weten over
+herdenkingsbomen, gedenkstenen, gedenkplaten, herdenkingsmonumenten en meer.
+Denk er wel aan dat het `*` teken enkel op het einde van een zoekterm kan gebruikt
+worden omwille van de performantie van zoekopdrachten. Met `*linde` zal je dus
+geen herdenkingslinde vinden.
+
+Als we alles combineren kunnen we dus zoeken naar objecten waarin iets gezegd
+wordt over visgraatverband of -motief, in Oost- of West-Vlaanderen, maar waarin
+Brugge niet voorkomt met de volgende zoekopdracht: `visgraat*
+(oost-vlaanderen|west-vlaanderen) -brugge`.
+
+Misschien vraag je je af welke velden er nu juist doorzocht worden als je
+full-text zoekt en hoe zwaar deze doorwegen in je zoekopdracht? In het 
+bovenstaande voorbeeld zul je bijvoorbeeld objecten vinden waarin
+Oost-Vlaanderen of West-Vlaanderen niet in de tekst voorkomen. Omdat het echter
+makkelijker werkt en aangeeft waar de nodige accenten liggen, voegen we deze
+toch toe aan de full-text index. De velden die we full-text doorzoeken in
+volgorde van belang zijn: de tekst, de titel van de tekst, de korte
+beschrijving van het object (wat je te zien krijgt in een zoekresultaat),
+provincie, gemeente, deelgemeente en straat namen, thesaurustermen en de naam
+van het object zelf. Als je dus `vismarkt` zoekt, dan zal een object waarvan de
+titel `vismarkt` is, hoger op de lijst staan dan een object waarvan `vismarkt`
+ergens in de tekst voorkomt.
 
 We hopen dat het duidelijk is dat je met de nieuwe zoekmachine in de inventaris
 krachtige full-text zoekopdrachten kunt uitvoeren eens je de mogelijkheden een
 beetje onder de knie hebt. Samengevat zijn die:
 
- * Meerdere zoektermen worden met AND gecombineerd
- * Dit kan je expliciet maken met `+`
- * Je kunt ze ook combineren met een OR combinatie via `|`
- * Je kunt een term uitsluiten met de NOT operator via `-`
- * Je kunt zoektermen combineren tot 1 zoekterm door de termen tussen `"` te
-   plaatsen
- * Je kunt de volgorde van operatoren aanpassen door `()` te gebruiken
- * Je kunt zoeken op woorden die starten met een prefix door een `*` toe te
-   voegen 
+* Meerdere zoektermen worden impliciet met AND gecombineerd, je kan dit
+  expliciet maken met `+`
+* Je kunt ze ook combineren met een OR combinatie via `|`
+* Je kunt een term uitsluiten met de NOT operator via `-`
+* Je kunt zoektermen combineren tot 1 zoekterm door de termen tussen `"` te
+  plaatsen
+* Je kunt de volgorde van operatoren aanpassen door `()` te gebruiken
+* Je kunt zoeken op woorden die starten met een prefix door een `*` toe te
+  voegen 

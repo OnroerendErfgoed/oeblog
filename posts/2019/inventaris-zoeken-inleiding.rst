@@ -1,5 +1,5 @@
 .. post::
-   :category: services, inventaris
+   :category: services
    :tags: inventaris
    :author: Koen Van Daele
    :language: nl
@@ -7,7 +7,8 @@
 Van zoeken naar vinden op de nieuwe inventaris
 ==============================================
 
-Sinds 13 mei staat er een gloednieuwe inventaris op https://inventaris.onroerenderfgoed.be.
+Sinds `13 mei <https://www.onroerenderfgoed.be/nieuws/inventaris-onroerend-erfgoed-vernieuwd>`_
+staat er een gloednieuwe inventaris op https://inventaris.onroerenderfgoed.be.
 Zoals altijd is het even aanpassen. En dat is misschien het duidelijkste
 in de zoekmogelijkheden. Sommige mogelijkheden zijn blijven bestaan, 
 andere zijn lichtjes of sterk gewijzigd. Omdat het even wennen is, lijsten we
