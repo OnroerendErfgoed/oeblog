@@ -20,17 +20,17 @@ een aantal algemene principes mee, die we later verder uitdiepen.
    verschuivingen optreden, dus mogelijk is nog niet alles definitief.
 
 De inventaris bevat op dit moment 5 grote datasets: erfgoedobjecten,
-aanduidingsobjecten, personen, themas en gebeurtenissen. Veel zoekmogelijkheden
+aanduidingsobjecten, personen, thema's en gebeurtenissen. Veel zoekmogelijkheden
 en principes worden gedeeld tussen de verschillende datasets. We hebben
 geprobeerd bepaald regels en patronen voorspelbaar te maken en maximaal 
-te hergebruiken. Zo kun je er van uit gaan dat het zoeken erfgoedobjecten of
-aanduidingsobjecten in een bepaalde gemeente hetzelfde verloopt. Of dat het
+te hergebruiken. Zo kun je er van uit gaan dat het zoeken naar erfgoedobjecten
+of aanduidingsobjecten in een bepaalde gemeente hetzelfde verloopt. Of dat het
 zoeken met thesaurustermen overal op dezelfde manier werkt.
 
 User Interface vs. REST service
 -------------------------------
 
-Bij het zoeken maken we een onderscheid tussen de een zoekservice en de UI
+Bij het zoeken maken we een onderscheid tussen een zoekservice en de UI
 (User Interface) die kan gebruikt worden. Zoeken is een zeer complexe materie
 waarin we soms willen kunnen gebruik maken van meerdere parameters, booleaanse 
 combinaties (dit EN dat, dit OF dat, NIET dit), zoeken met een id of een string, 
@@ -77,11 +77,11 @@ Full text zoeken vs. filteren
 -----------------------------
 
 De zoekformulieren van de inventaris ondersteunen zowel een vorm van
-full-text zoeken (soms ook kortweg zoeken genoemd) als een vorm filteren. Dat
+full-text zoeken (soms ook kortweg zoeken genoemd) als een vorm van filteren. Dat
 klinkt misschien heel gelijkaardig, maar eigenlijk dienen beiden een heel
 verschillend doel. Beide technieken dienen om gericht informatie te vinden in
 een grote set van gegevens. Ze zorgen er dus voor dat we niet relevante
-gegevens niet hoeven te zien. In beiden gevallen krijg je bij ons nog steeds
+gegevens niet hoeven te zien. In beide gevallen krijg je bij ons nog steeds
 pagina's met gegevens te zien. Dus waar zit dan het verschil?
 
 Filteren is bij uitstek een zwart/wit of ja/nee verhaal. Een object beantwoordt
@@ -95,13 +95,13 @@ Full-text zoeken is geen zwart/wit verhaal, maar grijs. De zoekmachine probeert
 het meest relevante resultaat voor je vraag te geven. Je zoek bv. naar
 efgoedobjecten waarin `Gravensteen` voorkomt of `Sint-Veerle`. Hier ben je
 meestal maar op zoek naar een kleine aantal objecten of wil je iets meer weten
-over `Sint-Veerle`. Kenmkerkend hierbij is dat we de zoekresultaten zo proberen
+over `Sint-Veerle`. Kenmerkend hierbij is dat we de zoekresultaten zo proberen
 te ordenen dat het meest relevante object bovenaan de lijst staat. Hoe verder
 je door de lijst bladert, hoe minder kans dat een resultaat echt relevant is
 voor je. Dit is dezelfde manier waarop de grote zoekmachines op het internet
 zoals *Google* werken.
 
-Natuurlijk kun je beiden technieken ook combineren. Stel dat je full-text naar het
+Natuurlijk kun je beide technieken ook combineren. Stel dat je full-text naar het
 `Gravensteen` zoekt, dan zie je dit:
 https://inventaris.onroerenderfgoed.be/erfgoedobjecten?tekst=gravensteen . Tien
 objecten waarvan het eerste het Gravensteen in Gent is. Het laatste object is
