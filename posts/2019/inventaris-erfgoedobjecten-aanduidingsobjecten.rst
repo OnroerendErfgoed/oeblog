@@ -1,4 +1,4 @@
-.. post::
+.. post:: 2019-06-18
    :category: inventory
    :tags: inventaris, erfgoedobjecten, aanduidingsobjecten
    :author: Koen Van Daele
@@ -8,22 +8,22 @@ Erfgoedobjecten en aanduidingsobjecten
 ======================================
 
 Op `13 mei <https://www.onroerenderfgoed.be/nieuws/inventaris-onroerend-erfgoed-vernieuwd>`_
-lanceerden we een gloednieuwe `inventaris onroerend erfgoed <https://inventaris.onroerenderfgoed.be>`_.
+lanceerden we een gloednieuwe `Inventaris Onroerend Erfgoed <https://inventaris.onroerenderfgoed.be>`_.
 Wie de nieuwe inventaris al gebruikt heeft, heeft vast wel gemerkt dat er
 sprake is van vijf verschillende datasets: erfgoedobjecten,
 aanduidingsobjecten, personen, thema's en gebeurtenissen. Hierbij vormen
-erfgoed- en aanduidingsobjecten de kern van de inventaris databank. In dit
+erfgoed- en aanduidingsobjecten de kern van de inventarisdatabank. In dit
 blog-artikel gaan we dieper in op deze twee datasets. De andere
 drie datasets, personen, thema's en gebeurtenissen, spelen een ondersteunende
 rol. Deze komen later aan bod.
 
 De **erfgoedobjecten** zijn het kloppend hart van de inventaris. Het zijn de
-dingen die wij en jullie als ons erfgoed zien. Van iconische gebouwen zoals de
-Onze-Lieve-Vrouwe Kathedraal of het Gravensteen over een landschap zoals het
-Zwin tot een eenvoudige kapel of boom, een schip of een orgel. De focus
-ligt bij een erfgoedobject niet op de juridsche gevolgen, maar op de informatie
-over het object. Wat is het? Hoe groot is het? Waar ligt het? Hoe oud is het?
-Hoe ziet het er uit? Wie was betrokken bij het tot stand komen? Waar kan ik er meer
+dingen die wij en jullie als ons erfgoed zien. Van iconische gebouwen, zoals de
+Onze-Lieve-Vrouwekathedraal of het Gravensteen, over een landschap, zoals het
+Zwin, tot een eenvoudige kapel of boom, een schip of een orgel. De focus
+ligt bij een erfgoedobject niet op de juridische gevolgen, maar op de wetenschappelijke 
+informatie over het object. Wat is het? Hoe groot is het? Waar ligt het? 
+Hoe oud is het? Hoe ziet het er uit? Wie was betrokken bij het tot stand komen? Waar kan ik er meer
 over te weten komen? Het gaat om het erfgoed an sich, het ding zoals we het
 kennen en zien. In de praktijk is de afbakening van zo'n erfgoedobject vaak
 inherent een beetje vaag. Als je peilt naar `het Gravensteen` zal de ene
@@ -38,13 +38,18 @@ niet als een heel exacte afbakening.
 In tegenstelling tot de erfgoedobjecten, zijn de **aanduidingsobjecten** het
 erfgoed zoals het juridisch verankerd werd: de bescherming of de vaststelling
 van een erfgoedobject. Waar de grens van een erfgoedobject misschien een beetje
-vaag kan zijn, moet deze van een aanduidingobject onbetwistbaar zijn. De
-afbakening bepaalt hier namelijk welke rechtsgevolgen er op een bepaald stuk
-Vlaanderen van toepassing zijn. De belangrijkste vragen bij een
-aanduidingsobject zijn: exact hoe groot is het, wat voor soort erfgoed is het,
-waarom heeft dit erfgoedwaarde en welk besluit of ander document staaft die beslissing?
-Hierbij is het niet geheel ondenkbaar dat een bepaald erfgoedobject meerdere
-keren verankerd werd onder verschillende statuten, of dat een erfgoedobject in
+vaag kan zijn, moet deze van een aanduidingsobject onbetwistbaar zijn. De afbakening 
+bepaalt hier namelijk welke rechtsgevolgen er op een bepaald stuk Vlaanderen van 
+toepassing zijn. De laatste decennia werd deze afbakening vooral scherp gesteld voor beschermingen.
+Sinds het nieuwe Onroerenderfgoeddecreet zetten we ook heel sterk in op het
+exact verankeren van vastgesteld erfgoed, door deze `af te bakenen met een
+polygoon in plaats van de vroegere punten
+<https://www.onroerenderfgoed.be/nieuws/update-datalagen-onroerend-erfgoed-1>`_.
+De belangrijkste vragen bij een
+aanduidingsobject zijn: exact hoe groot is het, om welk type aanduiding gaat
+het, waarom heeft dit erfgoedwaarde en welk besluit of ander document staaft 
+die beslissing? Hierbij is het niet geheel ondenkbaar dat een bepaald erfgoedobject 
+meerdere keren verankerd werd onder verschillende statuten, of dat een erfgoedobject in
 meerdere stappen verankerd werd in verschillende kleine beschermingen of
 vaststellingen.
 
@@ -71,7 +76,7 @@ was vlak na de samensmelting van het agentschap `Ruimte en Erfgoed` en het
 beschermingsdatabank, de tweede de inventarisdatabank. Die laatste databank
 bestond op dat moment uit een aantal inventarissen, zoals de inventaris bouwkundig erfgoed 
 en de inventarissen van tuinen en parken en houtige beplantingen met 
-erfgoedwaarde. Voor elk element werd een aparte pagina of fiche voozien waarop
+erfgoedwaarde. Voor elk element werd een aparte pagina of fiche voorzien waarop
 de belangrijkste gegevens van het object konden afgelezen worden. Op dat 
 moment werd enkel het bouwkundig erfgoed vastgesteld. Alhoewel daar
 achterliggend een complexere datastructuur achter zat, werd dit op een
@@ -101,13 +106,14 @@ verschillende fiches.
 
 Een gelijkaardig probleem stelde zich ondertussen tussen de verschillende
 inventarissen. Toen de inventarissen nog op papier gepubliceerd werden, was er
-weinig interactie. De inventaris tuinen en parken publiceerde in een boek een
-historische tuin waarvan het bijhorende bouwkundig erfgoed in de reeks `Bouwen
-door de Eeuwen Heen` gepubliceerd werd. Vaak werd een deel van informatie uit
-de ene reeks hernomen in de andere. In boekvorm was dit logisch en best wel
-praktisch. Online bleek dit minder evident. Dan waren er twee fiches,
-beiden over een kasteel met tuin, maar telkens met een andere focus, het
-kasteel of de tuin. In het beste geval waren de fiches gewoon complementair,
+weinig interactie. De inventaris tuinen en parken publiceerde in de reeks `M&L
+Cahiers <https://oar.onroerenderfgoed.be/reeks/MENC>`_ `Historische tuinen en
+parken van Vlaanderen` een historische tuin waarvan het bijhorende bouwkundig 
+erfgoed in de reeks `Bouwen door de Eeuwen Heen` gepubliceerd werd. Vaak werd 
+een deel van informatie uit de ene reeks hernomen in de andere. In boekvorm was 
+dit logisch en best wel praktisch. Online bleek dit minder evident. Dan waren er 
+twee fiches, beiden over een kasteel met tuin, maar telkens met een andere focus, 
+het kasteel of de tuin. In het beste geval waren de fiches gewoon complementair,
 maar wanneer er redelijk wat tijd zat tussen de twee inventarissen, spraken ze
 elkaar soms gewoon tegen. Ook hier stelde zich de vraag wat er moest gebeuren
 met informatie die verouderd was en moest aangepast worden. (:ref:`On data-driven systems
@@ -115,15 +121,25 @@ and system-driven data <vdmemo2016>`)
 
 Uiteindelijk gooiden we het roer om. We kwamen tot de conclusie dat het
 essentieel was om twee zaken te scheiden. Enerzijds, de inhoudelijke
-informatie. We willen die op zo weinig mogelijk plaatsen tegelijk bijhouden. De
-afbakening van zo'n inhoudelijk object wordt vrij gekozen op basis van inhoudelijke
-afwegingen. Het is niet omdat van een bepaalde kerk enkel de kerktoren
+informatie. We willen die op zo weinig mogelijk plaatsen tegelijk bijhouden.
+Daarom kennen we nu aan elk erfgoedobject één of meerdere disciplines toe:
+archeologisch, bouwkundig, landschappelijk of varend. Waar we in het verleden
+voor een kasteel met tuin vaak meerdere fiches zouden aangemaakt hebben,
+streven we er nu zo veel mogelijk naar om alle informatie in één fiche samen te
+brengen. De afbakening van zo'n inhoudelijk object wordt vrij gekozen op basis
+van inhoudelijke afwegingen. Het is niet omdat van een bepaalde kerk enkel de kerktoren
 beschermd is, dat er geen relevante inhoudelijk informatie over de volledige
 kerk is. Anderzijds willen we de juridische informatie over zo'n object
 los kunnen behandelen van de inhoudelijke. We willen kunnen aangeven dat een bepaalde bescherming
 misschien niet meer bestaat (bv. in het geval van opheffing of vernietiging 
-van het besluit), maar dat het erfgoed daarom nog niet verdwenen is. Zo werd de
-beschermingsdatabank herwerkt tot een databank van aanduidingsobjecten. De
+van het besluit), maar dat het erfgoed daarom nog niet verdwenen is. Of dat een
+bepaalde bescherming slechts een deel van een erfgoedobject betreft. De
+afbakening van een erfgoedobject wordt immers vrij gekozen op basis van
+inhoudelijke afwegingen, in tegenstelling tot een aanduidingsobject dat ook
+rekening houdt met juridische en andere technische afwegingen. Het is niet
+omdat van een bepaalde kerk enkel de kerktoren beschermd is, dat we geen
+informatie hebben over de rest van de kerk. Zo herwerkten we de
+beschermingsdatabank tot een databank van aanduidingsobjecten. De
 term aanduiding haalden we bij `Historic England
 <https://historicengland.org.uk/>`_, waar men van `designation`
 of `aanduiding` spreekt als het formeel toekennen van rechtsgevolgen aan
@@ -149,7 +165,7 @@ vorige versies van de inventaris kon je deze gehelen vinden als `bouwkundige
 gehelen`, `archeologische zones` en `ankerplaatsen`. Vandaag de dag zijn al
 deze oude deelinventarissen erfgoedobjecten geworden. Maar we maken wel
 consequent het onderscheid tussen `gehelen` (grote oppervlaktes), en
-`elementen` (puntsgewijze of relatief kleinschalige stukjes erfgoed). Al sinds
+`elementen` (relatief kleinschalige stukjes erfgoed). Al sinds
 2009 koppelen we verschillende erfgoedobjecten aan elkaar met een aantal
 relaties:
 
@@ -163,7 +179,7 @@ relaties:
   het koetshuis of de kasteeltuin omvat. Of een element dat een ander element
   omvat, bijvoorbeeld een kerk die een apart beschreven orgel heeft.
 * *is deel van*: Een erfgoedobject is deel van een ander erfgoedobject. Dit is
-  het omgekeerde van `omvat`, het is dan ook logisch dat het bovenvernoemde
+  het omgekeerde van `omvat`, het is dan ook logisch dat het bovengenoemde
   orgel deel is van de kerk en dat het koetshuis deel is van het kasteeldomein.
 
 Zoals reeds vermeld hadden we in onze oude inventarissen soms meerdere fiches
@@ -212,7 +228,7 @@ naar stukjes erfgoed en zoek je primair op inhoudelijk kenmerken. De eenheid
 van informatie is erfgoed. Bij de
 aanduidingsobjecten zoek je naar beschermingen of vaststellingen en zoek je
 primair op de kenmerken die iets over de aanduiding zeggen. De eenheid van
-informatie is hier niet erfgoed, maar beslissingen over erfgoed.
+informatie is hier niet erfgoed, maar juridische beslissingen over erfgoed.
 
 Stel dat we op zoek gaan naar `beschermde bibliotheken`? Als we in het
 zoekformulier voor erfgoedobjecten zoeken naar `typologie=bibliotheken` en
