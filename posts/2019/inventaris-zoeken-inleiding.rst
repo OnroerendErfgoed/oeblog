@@ -125,6 +125,6 @@ fiche, maar gewoon alles waarin melding van het `Gravensteen` wordt gemaakt.
 Hopelijk heb je nu al iets meer inzicht in de werking van de inventaris
 zoekmachines en snap je wanneer je best kunt zoeken of filteren. Of wanneer je
 de combinatie kunt toepassen. In een volgende blog leggen we uit hoe je
-gerichter kunt full-text zoeken en hoe we nu eigenlijk bepalen wat de meest
-relevante fiche is voor een bepaalde vraag. Op basis van wat beslissen we nu 
-wat het meest `Gravenstenige` erfgoedobject is?
+:ref:`gerichter kunt full-text zoeken<inventaris-full-text-zoeken>`_ en 
+hoe we nu eigenlijk bepalen wat de meest relevante fiche is voor een bepaalde 
+vraag. Op basis van wat beslissen we nu wat het meest `Gravenstenige` erfgoedobject is?
