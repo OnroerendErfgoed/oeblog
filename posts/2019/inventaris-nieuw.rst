@@ -1,6 +1,6 @@
 .. post:: 2019-08-14
    :category: inventory
-   :tags: inventaris
+   :tags: inventaris, technology stack
    :author: Koen Van Daele
    :language: nl
 
@@ -19,7 +19,7 @@ werd de onderliggende technologie volledig herschreven. Het lijkt misschien of
 de inventaris tien jaar ongewijzigd is gebleven en dan in zijn geheel vervangen
 werd. Niets is echter minder waar, in de loop van die tien jaar zijn er heel
 wat wijzigingen geweest. Vandaag gaan we even dieper in op de evoluties die onze
-inventaris de laatste 10 jaar meegemaakt heeft, met een sterke focus op de
+inventaris de laatste 10 jaar meegemaakt heeft, met een focus op de
 technologische kant.
 
 Wat toen nieuw was, is nu oud
@@ -41,7 +41,7 @@ Er was geen enkele reden om hiervan af te wijken. Deze technologie deed wat ze
 moest doen, kon perfect de volumes aan die we moesten kunnen verwerken en kende 
 geen licentiekost. Daarnaast beschikte ze met de `Postgis <https://postgis.net>`_ 
 plugin over een extreem krachtige GIS motor, onontbeerlijk voor een agentschap 
-dat dagelijk met onroerend erfgoed bezig is.
+dat dagelijks met onroerend erfgoed bezig is.
 
 De grootste wijziging was echter
 de keuze voor een nieuwe programmeertaal. Waar het VIOE ontwikkelde in PHP en
@@ -61,7 +61,7 @@ Onze frontend pagina's maken sinds dan gebruik van een CSS framework zoals
 `Foundation <https://foundation.zurb.com>`_. Net zoals heel veel andere
 webontwikkelaars, hebben we ook de stap naar de `Single Page Applications` (SPA) 
 gezet. Dit zijn webtoepassingen die heel sterk op een `Javascript` motor
-draaien en continu communiceren met de backend server via netwerk calls. We
+draaien en continu communiceren met de backend server via `REST` services. We
 zetten die intensief in voor beheersomgevingen, complexe digitale omgevingen en
 toepassingen zoals ons `geoportaal <https://geo.onroerenderfgoed.be>`_. Voor
 openbare pagina's die vaak door het publiek geraadpleegd worden trachten we
@@ -73,7 +73,7 @@ toepassingen maken gebruik van het `Aurelia <https://aurelia.io>`_ framework.
 
 Waar de oude inventaris in het begin nog draaide op een klassiek model van HTML
 forms en HTTP POST requests, evolueerde die de voorbije tien jaar al
-gedeeltelijk naar een systeem waarin webservices, meer bepaalde REST services,
+gedeeltelijk naar een systeem waarin webservices, meer bepaalde `REST` services,
 een centrale rol speelden. In de nieuwe inventaris, net zoals in al onze andere
 hedendaagse toepassingen, werd deze kaart resoluut getrokken. We hebben
 hiervoor een `Resource Oriented Architecture` ontwikkeld waarin we overstappen
@@ -106,15 +106,15 @@ landschappen verenigde. Op dat moment kwamen een aantal inventarissen en
 bijhorende informatiesystemen (databanken en in opbouw zijnde databanken, maar
 ook boeken zoals Bouwen door de Eeuwen Heen) voor het eerst samen in beheer in
 enkele organisatie. Omdat die verschillende systemen verschillende invalshoeken
-en finaltiteiten kenden, werd de eerste versie van
+en finaliteiten kenden, werd de eerste versie van
 `Inventaris Onroerend Erfgoed <https://inventaris.onroerenderfgoed.be>`_ 
-geconcipieerd als een portaal. Daarop
+opgevat als een portaal. Daarop
 wouden we de inventarissen samen ontsluiten, met één enkele look-and-feel, maar
 elk met een eigen datamodel. De voornaamste raakpunten op dat moment waren
-dat ze er een coherentere lijn werd gebracht in de GIS mogelijkheden, dat ze
+dat er een meer coherente lijn werd gebracht in de GIS mogelijkheden, dat ze
 een beeldbank deelden en dat er relaties konden gelegd werden tussen
 verschillende objecten in verschillende inventarissen die misschien geheel of
-gedeeltelijk hetzelfde object in de realiteit zijn. Bij de lancering in mei
+gedeeltelijk hetzelfde fysieke object in de realiteit zijn. Bij de lancering in mei
 2009 bevatte het portaal de inventaris van het bouwkundig erfgoed en de
 inventaris wereldoorlog erfgoed. Daarnaast waren er ondersteunende modules voor
 afbeeldingen, gebeurtenissen en thesaurustermen.
@@ -124,7 +124,7 @@ inventaris van orgels, archeologische zones, historische tuinen en parken,
 houtige beplantingen met erfgoedwaarde, de ankerplaatsen uit de
 landschapsatlas en het varend erfgoed. Waar we er op voorhand van uit gingen
 dat elk van deze inventarissen een heel eigen datamodel had, bleek dit in de
-parktijk niet zo te zijn. Er konden een aantal verschillen in methodiek
+praktijk niet zo te zijn. Er konden een aantal verschillen in methodiek
 vastgesteld worden, die soms aanleiding geven tot verschillen in terminologie
 (een gebouw wordt gesloopt, een boom wordt gerooid), maar de essentie bleef
 dezelfde. Beschrijven welk erfgoed zich waar bevindt en dat erfgoed
@@ -163,14 +163,30 @@ objecten uit de wetenschappelijke inventarissen werd een erfgoedobject met een
 eigen URI. In 2016 waren dit nog grotendeels kosmetische oplossingen. De
 verschillende detailpagina's werden samengevoegd tot 1 pagina waarbij elk van
 de erfgoedobjecten op een uniforme manier gepresenteerd werd. Achterliggend
-waren dit echter nog steeds verschillende datasets met een eigen datamodel.
+waren dit echter nog steeds verschillende datasets met een eigen datamodel. Op 
+dat moment werd het duidelijk dat de oude inventaris zo ver had gebracht als 
+mogelijk was binnen het kader waarin deze gemaakt was.
 
-Zo werd er gestart met de voorbereidingen van wat uiteindelijk de nieuwe
+Dus werd er gestart met de voorbereidingen van wat uiteindelijk de nieuwe 
 inventaris zou worden. Enerzijds omdat onze visie op de verschillende
-wetenschappelijke inventarissen de voorbije jaren sterk gewijzigd is, van
-allemaal aparte silo's naar één grote inventaris van erfgoedobjecten.
-Anderzijds omdat de technologische componenten van de inventaris aan
-vervanging toe waren.
+wetenschappelijke inventarissen de voorbije jaren sterk gewijzigd is, van allemaal
+aparte silo's naar één grote inventaris van erfgoedobjecten. Anderzijds omdat 
+de technologische componenten van de inventaris aan vervanging toe waren. Nu de
+nieuwe inventaris er is, blijven we schaven aan het systeem tot het helemaal
+doet wat we willen binnen de huidige mogelijkheden.
+
+Wie wat meer wil weten over de inventaris, verwijzen we graag naar een aantal
+andere blogs:
+
+* `Algemeen
+  <https://www.onroerenderfgoed.be/nieuws/inventaris-onroerend-erfgoed-vernieuwd>`_: 
+  Algemene informatie over de nieuwe inventaris
+* :ref:`inventaris-erfgoedobjecten-aanduidingsobjecten`: Wat zijn nu eigenlijk
+  die erfgoedobjecten en aanduidingsobjecten en waarom bestaan ze?
+* :ref:`inventaris-zoeken-inleiding`: Hoe zijn de zoekmogelijkheden van de
+  inventaris in het algemeen opgebouwd?
+* :ref:`inventaris-zoeken-full-text`: Hoe werkt full-text zoeken en wat kan je
+  daar allemaal mee doen?
 
 Iedereen die de IT wereld kent, weet dat deze nog steeds snel evolueert. Onze
 core business is dan misschien het verleden, we willen dat verleden wel op een

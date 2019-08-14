@@ -1,6 +1,6 @@
 .. post:: 2019-07-25
    :category: services, inventory
-   :tags: inventaris
+   :tags: inventaris, search, full-text
    :author: Koen Van Daele
    :language: nl
 
