@@ -15,7 +15,8 @@ aanduidingsobjecten, personen, thema's en gebeurtenissen. Hierbij vormen
 erfgoed- en aanduidingsobjecten de kern van de inventarisdatabank. In dit
 blog-artikel gaan we dieper in op deze twee datasets. De andere
 drie datasets, personen, thema's en gebeurtenissen, spelen een ondersteunende
-rol. Deze komen later aan bod.
+rol. Deze komen later aan bod
+(:ref:`inventaris-themas-personen-gebeurtenissen`).
 
 De **erfgoedobjecten** zijn het kloppend hart van de inventaris. Het zijn de
 dingen die wij en jullie als ons erfgoed zien. Van iconische gebouwen, zoals de
