@@ -99,4 +99,6 @@ duidelijk is geworden. Geen van deze drie datasets vorm de essentie van de
 inventaris onroerend erfgoed, maar alle drie maken ze de inventaris
 interessanter of nuttiger. 
 
-Heb je nog vragen of suggesties, neem dan `contact op met ons <ict@onroerenderfgoed.be>`_.
+Wil je nog meer weten over de nieuwe inventaris en wat je er allemaal mee kunt
+doen, lees dan :ref:`inventaris-nieuw`. Heb je daarna nog vragen of suggesties, 
+neem dan `contact op met ons <ict@onroerenderfgoed.be>`_.
