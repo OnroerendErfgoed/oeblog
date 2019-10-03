@@ -183,10 +183,14 @@ andere blogs:
   Algemene informatie over de nieuwe inventaris
 * :ref:`inventaris-erfgoedobjecten-aanduidingsobjecten`: Wat zijn nu eigenlijk
   die erfgoedobjecten en aanduidingsobjecten en waarom bestaan ze?
+* :ref:`inventaris-themas-personen-gebeurtenissen`: Naast de erfgoedobjecten en
+  aanduidingsobjecten zijn er ook nog drie ondersteunende modules: thema's,
+  personen en gebeurtenissen. Waarvoor dienen deze?
 * :ref:`inventaris-zoeken-inleiding`: Hoe zijn de zoekmogelijkheden van de
   inventaris in het algemeen opgebouwd?
 * :ref:`inventaris-zoeken-full-text`: Hoe werkt full-text zoeken en wat kan je
-  daar allemaal mee doen?
+  daar allemaal mee doen, geiïllustreerd met voorbeelden bij de
+  erfgoedobjecten.
 
 Iedereen die de IT wereld kent, weet dat deze nog steeds snel evolueert. Onze
 core business is dan misschien het verleden, we willen dat verleden wel op een
