@@ -42,7 +42,7 @@ aan: andere namen waaronder ze gekend zijn, geboorte- en sterfdata (of
 oprichtingsdata in het geval van organisaties of groepen), plaatsen
 waar ze gewoond of gewerkt hebben, beroepen die ze hebben uitgeoefend,
 opleidingen die ze hebben genoten en een korte biografie. Elke persoon of
-collectied wordt
+collectief wordt
 gekoppeld aan de erfgoedobjecten waarmee hij of zij een band heeft als
 ontwerper, uitvoerder, opdrachtgever, ... Zo kun je via onze personen dataset
 snel een who's who van het Vlaamse onroerend erfgoed raadplegen.
