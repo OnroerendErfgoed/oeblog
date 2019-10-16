@@ -78,10 +78,11 @@ zoekoperatoren op toepassen:
 * Indien ik slechts op een deel van een woord wil zoeken, dan kan ik de
   wildcard `*` gebruiken. Let op, dit werkt enkel op het einde van een woord.
   Als ik bv. zoek naar `roze*
-  <https://beeldbank.onroerenderfgoed.be/images?text=roze*>`_, dan krijg ik afbeeldingen waarin zowel
-  `rozendale`, `rozeveldstraat` als `rozebeekstraat` voorkomen. Zoals gezegd, werkt dit
-  niet voor `*roze` of `r*ze`. Zo'n zoekopdaracht zou namelijk helemaal niet
-  performant zijn.
+  <https://beeldbank.onroerenderfgoed.be/images?text=roze*>`_, dan krijg ik 
+  afbeeldingen waarin zowel `rozendale`, `rozeveldstraat` als `rozebeekstraat` 
+  of gewoon `roze` voorkomen. Zoals gezegd, werkt dit niet voor `*roze` of `r*ze`.
+  Zo'n zoekopdracht zou namelijk onze systemen en dus ook jullie geduld veel 
+  te veel belasten.
 * Tenslotte kan je haakjes `()` gebruiken om zoekoperatoren te groeperen. Zo kan
   je met `dorp* (knokke-heist | brugge)
   <https://beeldbank.onroerenderfgoed.be/images?text=dorp*+%28knokke-heist%7Cbrugge%29>`_ 
