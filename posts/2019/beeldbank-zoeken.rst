@@ -47,7 +47,7 @@ de bestaande dataset. In dit geval kunnen we expliciet filteren op `Provincie`,
 `Gemeente`, `Jaar`, `Maker` en `Licentie`. Bij elk facet zie je alle mogelijke
 waarden, inclusief hoe vaak ze voorkomen. Zo zien we dat er 8 afbeeldingen uit
 Knokke-Heist zijn en maar 1 uit Diksmuide. Het laatste facet, licentie, geeft
-aan onder welke voorwaarden een afbeeling hergebruikt kan worden. Zo zien we
+aan onder welke voorwaarden een afbeelding hergebruikt kan worden. Zo zien we
 dat 17 afbeeldingen vrij voor hergebruik zijn onder één van twee licenties en
 dat 1 afbeelding niet vrijgegeven is voor hergebruik.
 
@@ -102,7 +102,7 @@ gezien dan een afbeelding waarin de term maar 1 keer voorkomt. Daarnaast wordt
 een zoekterm in bepaalde velden als relevanter gezien dan in andere. Zo zal
 eenzelfde zoekterm meer wegen in het titelveld dan in een stukje van de
 locatie, wat op zijn beurt meer weer weegt dan de zoekterm in de beschrijving
-van de afbeeling.
+van de afbeelding.
 
 Je kunt zoekopdrachten met de full-text parameter perfect combineren met facetten. 
 Dus als je zoekt naar `brugge*` en daarna kruis je het jaar `2019` aan, dan zie je
@@ -115,7 +115,7 @@ alle afbeeldingen uit 2019 waarin een woord voorkomt dat begint met `brugge`.
 Naast het zoekformulier zijn er nog andere mogelijkheden om een afbeelding
 terug te vinden. De overgrote meerderheid van onze afbeeldingen zijn gekoppeld
 aan de `inventaris onroerend erfgoed <https://inventaris.onroerenderfgoed.be>`_.
-Als je daaarin een erfgoedobject opzoekt, dan zie je daar een aantal
+Als je daarin een erfgoedobject opzoekt, dan zie je daar een aantal
 afbeeldingen. Dat zijn allemaal afbeeldingen uit de beeldbank. We tonen er
 altijd een aantal, en bieden je ook een link om alle afbeeldingen tegelijk te
 zien. Ofwel klik je op één enkele afbeelding om rechtstreeks naar die
