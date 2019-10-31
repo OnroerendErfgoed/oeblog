@@ -1,4 +1,4 @@
-.. post:: 
+.. post:: 2019-10-31
    :category: services, imagebase
    :tags: beeldbank, search, full-text
    :author: Koen Van Daele
@@ -102,7 +102,10 @@ gezien dan een afbeelding waarin de term maar 1 keer voorkomt. Daarnaast wordt
 een zoekterm in bepaalde velden als relevanter gezien dan in andere. Zo zal
 eenzelfde zoekterm meer wegen in het titelveld dan in een stukje van de
 locatie, wat op zijn beurt meer weer weegt dan de zoekterm in de beschrijving
-van de afbeelding.
+van de afbeelding. Wil je niet dat de toepassing de gevonden afbeeldingen
+slim sorteert? Dan pas je op de pagina met zoekresultaten het veld `Sorteren op`
+aan. Naast het hierboven beschreven sorteren op relevantie kan je ook
+sorteren op de titel of de datum van opname.
 
 Je kunt zoekopdrachten met de full-text parameter perfect combineren met facetten. 
 Dus als je zoekt naar `brugge*` en daarna kruis je het jaar `2019` aan, dan zie je
