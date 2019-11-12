@@ -1,5 +1,5 @@
 .. post:: 
-   :category: services, gis
+   :category: services, gis, architecture
    :tags: geoportaal, geoserver
    :author: Koen Van Daele
    :language: en
