@@ -15,14 +15,15 @@ something that was easy to use for a large userbase. We had observed that other
 geoportals tended to cater to the GIS professionals and quite often sought to
 build an online version of a desktop GIS. This creates a web application that
 might be versatile and quite powerful to people who know GIS, but is ultimately
-inaccessible to user who have no GIS experience. We wanted to create a user
+inaccessible to users who have no GIS experience. We wanted to create a user
 experience similar to `Google Maps` and other webbased mapping platforms, but
 specifically tailored to users looking for information on cultural heritage. We
 also wanted the geoportal to feel like an integral part of our online
-information source. To achieve this we created reports that always link to our
+information systems. To achieve this we created reports that always link to our
 online sources through their persistent URI's. These URI's are present as
 metadata in all our geographical data and link features back to their authentic
-source where the data is always up to date.
+source. The database you can go to for the latest version of record,  where 
+the data is always up to date.
 
 A second requirement came about through the data we wanted to show. While
 Flanders Heritage creates, maintains and publishes geodata about immovable 
@@ -33,14 +34,15 @@ supplying us with geographical basemaps and non-heritage related information
 layers. We also had other layers we wanted to incorporate, from other entities
 of the Flemish Government such as `Mercator <>`_ or other countries (`RCE
 <>`_). We not only rely upon `Informatie Vlaanderen` for geographical layers,
-but they also provide alfanumerical services that help in navigating maps.
+they also provide alfanumerical services that help in navigating maps.
 There's the CRAB services that enumerates all address data in Flanders, the
 CAPAKEY service that provides data on cadastral parcels and a geolocation
 service that helps to quickly find a certain address in a free-form text-search
-style. We wanted to use all these services and store as little data as possible
-from these other services. A few caches here and there are fine, but not
+style. We wanted to use all these services, but not just copy their data, as
+would have happened ten years earlier. We wanted to store as little data as
+possible from these services. A few caches here and there are fine, but not
 full-scale copies of other services and databases. We fetch the data at it's
-point of origin so the data we present are as uptodate as possible.
+point of origin so the data we can show our end users are as uptodate as possible.
 
 Finally, from a technical point of view we wanted to work with open source
 software (both for costs reasons and because it fit our tecnical stack nicely).
