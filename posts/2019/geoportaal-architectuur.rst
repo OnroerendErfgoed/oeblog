@@ -32,11 +32,14 @@ heavily on `Flanders Information Agency <https://informatie.vlaanderen.be>`_
 (the former Agentschap Geografische Informatie Vlaanderen or AGIV) as our partner for
 supplying us with geographical basemaps and non-heritage related information
 layers. We also had other layers we wanted to incorporate, from other entities
-of the Flemish Government such as `Mercator <>`_ or other countries (`RCE
-<>`_). We not only rely upon `Informatie Vlaanderen` for geographical layers,
+of the Flemish Government such as `Mercator <https://mercator.vlaanderen.be/>`_ 
+or other countries (`RCE <https://www.cultureelerfgoed.nl/>`_). We not only 
+rely upon `Flanders Information Agency` for geographical layers,
 they also provide alfanumerical services that help in navigating maps.
-There's the CRAB services that enumerates all address data in Flanders, the
-CAPAKEY service that provides data on cadastral parcels and a geolocation
+There's the `CRAB service that enumerates all address data in Flanders 
+<https://overheid.vlaanderen.be/informatie-vlaanderen/producten-diensten/centraal-referentieadressenbestand-crab>`_
+, the `CAPAKEY service <https://overheid.vlaanderen.be/capakey-rest-service>`_ 
+that provides data on cadastral parcels and a geolocation
 service that helps to quickly find a certain address in a free-form text-search
 style. We wanted to use all these services, but not just copy their data, as
 would have happened ten years earlier. We wanted to store as little data as
@@ -54,23 +57,23 @@ configuration in code, which has allowed us to eg. optimise how layers are
 combined.
 
 The geoportal consists of a back- and a frontend. The frontend is the most
-sizeable piece of code (about 98% of all code is JS, HTML and CSS) and 
+sizeable piece of code (about 98% of all code is Javascript, HTML and CSS) and 
 consists of the map layout, UI/UX and general presentation layout. Since the
-code was written several years ago, it still uses a rather old JS framework,
-Dojo. The mapping interface was written in Openlayers 2, but was upgraded to
-Openlayers 3 (and PROJ 4) a few years ago. The HTML and CSS comes from our
-implementation of the Flemish corporate style for websites using the Zurb
-Foundation framework. The geoportal
-frontend communicates entirely through services with either our own geoportal
-backend or other webservices.
+code was written several years ago, it still uses a rather old Javascript 
+framework, `Dojo <https://dojotoolkit.org>`_. The mapping interface uses
+`Openlayers <https://openlayers.org>`_ (and `PROJ 4 <http://proj4js.org/>`_). 
+The HTML and CSS comes from our implementation of the Flemish corporate style
+for websites using the `Zurb Foundation framework <https://foundation.zurb.com/>`_`.
+The geoportal frontend communicates entirely through services with either our
+own geoportal backend or other webservices.
 
 Those other webservices are for the largest part INSPIRE compliant WMS, WMTS
 and WFS services hosted by one of several parties:
 
- * `Flanders Information Agency <>`_ hosts a large number of reference datasets
-   such as basemaps, aerial photography, historic maps, address data,
-   cadastrals parcels, ... in the offical `Flemish INSPIRE node <>`_.
- * `Mercator <>`_ is an INSPIRE subnode that hosts datasets and maps dealing
+ * `Flanders Information Agency <https://informatie.vlaanderen.be>>`_ hosts 
+   a large number of reference datasets such as basemaps, aerial photography,
+   historic maps, address data,     cadastrals parcels, ... in the offical `Flemish INSPIRE node <>`_.
+ * `Mercator <https://mercator.vlaanderen.be/>`_ is an INSPIRE subnode that hosts datasets and maps dealing
    with environmental data, but als our heritage data.
  * Specifically for our geoportal we host our own Geoserver instance. This
    allows us a bit more control over certain presentation related issues and is
