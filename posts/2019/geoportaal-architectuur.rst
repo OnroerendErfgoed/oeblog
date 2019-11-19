@@ -56,7 +56,12 @@ This philosopy has worked out well for us. Adding new layers is done through
 configuration in code, which has allowed us to eg. optimise how layers are
 combined.
 
-The geoportal consists of a back- and a frontend. The frontend is the most
+.. image:: geoportaal_architectuur.png
+
+*Software architecture of the Flanders Heritage Geoportal*
+
+So, if those were the main design considerations, where did we end up? As all 
+modern applications, the geoportal consists of a back- and a frontend. The frontend is the most
 sizeable piece of code (about 98% of all code is Javascript, HTML and CSS) and 
 consists of the map layout, UI/UX and general presentation layout. Since the
 code was written several years ago, it still uses a rather old Javascript 
@@ -70,20 +75,21 @@ own geoportal backend or other webservices.
 Those other webservices are for the largest part INSPIRE compliant WMS, WMTS
 and WFS services hosted by one of several parties:
 
- * `Flanders Information Agency <https://informatie.vlaanderen.be>>`_ hosts 
-   a large number of reference datasets such as basemaps, aerial photography,
-   historic maps, address data,     cadastrals parcels, ... in the offical `Flemish INSPIRE node <>`_.
- * `Mercator <https://mercator.vlaanderen.be/>`_ is an INSPIRE subnode that hosts datasets and maps dealing
-   with environmental data, but als our heritage data.
- * Specifically for our geoportal we host our own Geoserver instance. This
-   allows us a bit more control over certain presentation related issues and is
-   necessary because a few layers are reserved for internal or authenticated
-   use only as we'll explain later.
- * We have also include the Dutch INSPIRE layers about cultural heritage from
-   our colleagues at `Cultural Heritage Agency`. Heritage doesn't adhere to
-   current day political boundaries, so it can be interesting for our users to
-   have a look across the border. Having other published WMS services makes
-   this easy to incorporate.
+* `Flanders Information Agency <https://informatie.vlaanderen.be>`_ hosts 
+  a large number of reference datasets such as basemaps, aerial photography,
+  historic maps, address data,     cadastrals parcels, ... in the offical 
+  `Flemish INSPIRE node <https://www.geopunt.be>`_.
+* `Mercator <https://mercator.vlaanderen.be/>`_ is an INSPIRE subnode that hosts datasets and maps dealing
+  with environmental data, but als our heritage data.
+* Specifically for our geoportal we host our own Geoserver instance. This
+  allows us a bit more control over certain presentation related issues and is
+  necessary because a few layers are reserved for internal or authenticated
+  use only as we'll explain later.
+* We have also include the Dutch INSPIRE layers about cultural heritage from
+  our colleagues at `Cultural Heritage Agency`. Heritage doesn't adhere to
+  current day political boundaries, so it can be interesting for our users to
+  have a look across the border. Having other published WMS services makes
+  this easy to incorporate.
 
 Finally we also use a few layers that are not a part of INSPIRE. We use
 OpenStreetMap as a good baselayer for general use and the NGI Topographical map
@@ -95,41 +101,41 @@ framework. Apart from serving the static files for the frontend, it has two
 major functions. It's main job is to proxy certain location services by
 `Flanders Information Agency`:
 
- * Geolocation, a service that suggests adressess based on simple text imput
-   and returns geographical coordinates. It's a quick and easy way to navigate
-   our map of Flanders.
- * CRAB, a more much complex service that has full-address data in the form of
-   lists of municipalities, streets, housenumbers and their location. We use
-   this service in most of our systems to validate incoming data, but in the
-   geoportal it's used as a navigational aid. Users can descend from provinces
-   over municipalities and streets to addresses, without ever getting lost
-   along the way.
- * CAPAKEY, a REST service that has parcel data in the form of lists of
-   municipalities, cadastral divisions and section and parcel numbers. Similar
-   to the CRAB service, we use this service to guide our users through the
-   Belgian cadastral system to the parcel they are interested in.
+* Geolocation, a service that suggests adressess based on simple text imput
+  and returns geographical coordinates. It's a quick and easy way to navigate
+  our map of Flanders.
+* CRAB, a more much complex service that has full-address data in the form of
+  lists of municipalities, streets, housenumbers and their location. We use
+  this service in most of our systems to validate incoming data, but in the
+  geoportal it's used as a navigational aid. Users can descend from provinces
+  over municipalities and streets to addresses, without ever getting lost
+  along the way.
+* CAPAKEY, a REST service that has parcel data in the form of lists of
+  municipalities, cadastral divisions and section and parcel numbers. Similar
+  to the CRAB service, we use this service to guide our users through the
+  Belgian cadastral system to the parcel they are interested in.
 
 Nowadays, these three services are freely and openly available, so the need to
 proxy them might be less obvious now than when we started:
 
- * In te beginning both CRAB and CAPAKEY were SOAP services, difficult, if not
-   impossible, to work with from within a browser using JS. Recently, CAPAKEY
-   switched to a REST Service, so technically we could access it directly.
-   But we'd still be left with the CRAB SOAP service. When we started out, both
-   the CRAB and CAPAKEY services required authentication as well.
- * It frees us from fiddling with CORS headers. We already use CORS quite
-   often, but getting everything to function together can be a hassle. The
-   Geolocation does not support CORS anyway, so we would have to work with
-   something like JSON-P there.
- * It protects us from upstream API changes. Since all our applications use our
-   proxies, we only need to ensure the proxies knows how to talk to the
-   upstream API. If these change (eg. the move from SOAP to REST for CAPAKEY),
-   the impact on our systems is minimal and clear.
- * The proxies for CRAB and CAPAKEY also function as caches and reduce the
-   number of calls we have to make to the upstream services tremendously.
- * We enhanced the AIV services in a few ways. We added a list of Flemish
-   provinces, not present in either CRAB or CAPAKEY. We also incorporated a
-   python library of all country codes, to be used in address validations.
+* In te beginning both CRAB and CAPAKEY were SOAP services, difficult, if not
+  impossible, to work with from within a browser using JS. Recently, CAPAKEY
+  switched to a REST Service, so technically we could access it directly.
+  But we'd still be left with the CRAB SOAP service. When we started out, both
+  the CRAB and CAPAKEY services required authentication as well.
+* It frees us from fiddling with CORS headers. We already use CORS quite
+  often, but getting everything to function together can be a hassle. The
+  Geolocation does not support CORS anyway, so we would have to work with
+  something like JSON-P there.
+* It protects us from upstream API changes. Since all our applications use our
+  proxies, we only need to ensure the proxies knows how to talk to the
+  upstream API. If these change (eg. the move from SOAP to REST for CAPAKEY),
+  the impact on our systems is minimal and clear.
+* The proxies for CRAB and CAPAKEY also function as caches and reduce the
+  number of calls we have to make to the upstream services tremendously.
+* We enhanced the AIV services in a few ways. We added a list of Flemish
+  provinces, not present in either CRAB or CAPAKEY. We also incorporated a
+  python library of all country codes, to be used in address validations.
 
 If you yourself have a need for Flemish address or parcel data, and you're
 using Python, feel free to use or `CRABpy` library. If you're using the same
@@ -162,5 +168,5 @@ us. It has been in use for years now and is used quite a lot. The cost of
 building and maintaining it however, has been fairly low. The portal itself
 requires very little when it comes to hardware to run on and has a very low
 footrpint when running. Interested in our setup, have a look at our software
-libraries at `https://github.com/onroerenderfgoed`_ or drop us a line at
+libraries at `Github <https://github.com/onroerenderfgoed>`_ or drop us a line at
 ict@onroerenderfgoed.be
