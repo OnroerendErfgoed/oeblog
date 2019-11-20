@@ -7,31 +7,34 @@
 Welcome to the Ilucidare Playground
 ===================================
 
-Today (2019-11-20), we are present at the `Ilucidare Playground: Cracking the
-future of heritage <https://ilucidare.eu>`_. Members of `Flanders Heritage Agency's
-<https://www.onroerenderfgoed.be>`_ Information Team will show some 
-aspects of our how we are mixing heritage and technology on a daily 
-basis. The Information team consists of specialist staff trained in IT
-and Information Management. They are IT professionals from different
-backgrounds that run our daily IT operations, IT program management,
-application development, system and data management who work together with
-professionals in information management that run analog and digital archives,
-image databases, the library and documentation center and our online
-repository of open access publications. While this team has a vast
-array of responsibilities and duties, today we'll focus on a few key
-examples that show how well heritage, technology and digitisation match.
+`Flanders Heritage Agency <https://www.onroerenderfgoed.be>`_ is a government
+agency and scientific institution. We are responsible for architectural,
+archaeological, landscape and maritime heritage. Today (2019-11-20), we are 
+present at the `Ilucidare Playground: Cracking the
+future of heritage <https://ilucidare.eu>`_. We assimilate innovation to
+improve the preservation of heritage, to enhance decision-making, to support
+the management or to provide information to a broad public. To this end, we are
+mixing new technologies or new ways paradigm's with out care are
+responsabilities for heritage. Today we focus on a few tangible results of this
+innovation driven approach that demonstrate how well heritage, technology and
+digitisation match.
 
 No innovation without dissemination
 -----------------------------------
 
-As important as innovation is, it has little value if the output of that
-innovation does not reach our own colleagues, other heritage professionals, or the
-general public. Both Flanders Heritage and the Flemish Government
+While innovation often comes to mind when we are talking about technology, our
+society is innovating constantly as well. Sometimes it drives the technological
+advances, sometimes it follows them. One of the innovative approach of the past
+decade has been the shift towards openness. Open source software, open data and
+open access are key in today's information driven society. Both Flanders Heritage 
+and the Flemish Government
 are in favour of open data and open access. For open data, the government has
 adopted the `Smart Flanders Open Data Charter <https://smart.flanders.be>`_. At
 Flanders Heritage, we have published several open data sets, such as our
 `thesauri and controlled vocabularies <https://thesaurus.onroerenderfgoed.be>`_, 
-under the Flemish open data license.
+under the Flemish open data license. Not only do we publish those thesauri as
+open data, we have also publish the `software to maintain them <https://github.com/onroerendErfgoed>`_ as 
+`open source software <https://github.com/onroerendErfgoed>`_.
 
 When it comes to scholarly open access
 we strive to make all our publications publically available, free of charge. Nearly all 

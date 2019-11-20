@@ -21,7 +21,7 @@ github_pages = 'OnroerendErfgoed'
 #blog_path = 'blog'
 
 # The “title” for the blog, used in acthive pages.  Default is ``'Blog'``.
-blog_title = u'Flanders Heritage - Team Information Blog'
+blog_title = u'Flanders Heritage - Information and Technology Blog'
 
 # Base URL for the website, required for generating feeds.
 # e.g. blog_baseurl = "http://example.com/"
@@ -193,7 +193,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Flanders Heritage - Team Information'
+project = u'Flanders Heritage - Information and Technology'
 copyright = u'2016-2019, Flanders Heritage Agency'
 author = u'Flanders Heritage Agency'
 
