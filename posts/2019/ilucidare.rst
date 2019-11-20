@@ -33,7 +33,7 @@ adopted the `Smart Flanders Open Data Charter <https://smart.flanders.be>`_. At
 Flanders Heritage, we have published several open data sets, such as our
 `thesauri and controlled vocabularies <https://thesaurus.onroerenderfgoed.be>`_, 
 under the Flemish open data license. Not only do we publish those thesauri as
-open data, we have also publish the `software to maintain them <https://github.com/onroerendErfgoed>`_ as 
+open data, we also publish the `software to maintain them <https://github.com/onroerendErfgoed>`_ as 
 `open source software <https://github.com/onroerendErfgoed>`_.
 
 When it comes to scholarly open access
@@ -138,7 +138,7 @@ about it, download it and reuse it - provided you adhere to the license.
 
 .. image:: ilucidare_geoportal_images.png
 
-*A view of the Bijloke site in Ghent with all know images of this area.*
+*A view of the Bijloke site in Ghent with all known images of this area.*
 
 Give me a map and I'll never get lost
 -------------------------------------
