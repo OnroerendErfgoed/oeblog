@@ -9,7 +9,7 @@ Welcome to the Ilucidare Playground
 
 `Flanders Heritage Agency <https://www.onroerenderfgoed.be>`_ is a government
 agency and scientific institution. We are responsible for architectural,
-archaeological, landscape and maritime heritage. Today (2019-11-20), we are 
+archaeological, landscape and maritime heritage. Today we are 
 present at the `Ilucidare Playground: Cracking the
 future of heritage <https://ilucidare.eu>`_. We assimilate innovation to
 improve the preservation of heritage, to enhance decision-making, to support
