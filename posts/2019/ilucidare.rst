@@ -14,8 +14,8 @@ present at the `Ilucidare Playground: Cracking the
 future of heritage <https://ilucidare.eu>`_. We assimilate innovation to
 improve the preservation of heritage, to enhance decision-making, to support
 the management or to provide information to a broad public. To this end, we are
-mixing new technologies or new ways paradigm's with out care are
-responsabilities for heritage. Today we focus on a few tangible results of this
+mixing new technologies or new paradigms with our care and responsabilities 
+for heritage. Today we focus on a few tangible results of this
 innovation driven approach that demonstrate how well heritage, technology and
 digitisation match.
 
@@ -69,7 +69,7 @@ information. Where 20-30 years ago digital mostly meant textual information
 media: audio, video and images (mostly of cats it seems). While audio and video is
 still a fairly rare format for us, images have always been a staple in our
 information diet. Heritage professionals have been documenting heritage and
-it's current state ever since cameras became available. The rise to prominence
+its current state ever since cameras became available. The rise to prominence
 of digital cameras and more recently smartphones with a good camera has only
 accelerated this process. We estimate that within our agency a few million
 pictures are circulating in both analog and digital formats. In 2019 we
@@ -159,13 +159,13 @@ tool, it's still very popular among our users. Because we focus on presenting ou
 own data as best as possible, the interface is optimised for people looking for 
 spatial data on heritage, as opposed to just any spatial data. Those people we 
 gladly refer to `Geopunt <https://geopunt.be>`_, a geoportal for all spatial data
-produced by the Flemish Government. It contains far more data than we need, but it's 
+produced by the Flemish Government. It contains far more data than we need, but its 
 use is not optimised for heritage information and it might take longer to find
 exactly that piece of information you're looking for.
 
 .. image:: ilucidare_geoportal_sotteghem.png
 
-*The current day city of Zottegem and it's listed heritage as seen on the Villaret map (1745-1748)*
+*The current day city of Zottegem and its listed heritage as seen on the Villaret map (1745-1748)*
 
 If you visit the `Geoportal <https://geo.onroerenderfgoed.be>`_ for the first 
 time, you will be asked to choose one
@@ -194,7 +194,7 @@ When points become clouds of information
 
 .. image:: ilucidare_geoportal_damme.png
 
-*The city of Damme and it's fortifications as seen on the multidirectional
+*The city of Damme and its fortifications as seen on the multidirectional
 hillshade*
 
 To wrap up, we present a final mapping related project. A while back, our
