@@ -33,8 +33,8 @@ adopted the `Smart Flanders Open Data Charter <https://smart.flanders.be>`_. At
 Flanders Heritage, we have published several open data sets, such as our
 `thesauri and controlled vocabularies <https://thesaurus.onroerenderfgoed.be>`_, 
 under the Flemish open data license. Not only do we publish those thesauri as
-open data, we also publish the `software to maintain them <https://github.com/onroerendErfgoed>`_ as 
-`open source software <https://github.com/onroerendErfgoed>`_.
+open data, we also publish the `software to maintain them <https://atramhasis.readthedocs.io/en/latest>`_ 
+as `open source software <https://github.com/onroerendErfgoed>`_.
 
 When it comes to scholarly open access
 we strive to make all our publications publically available, free of charge. Nearly all 
