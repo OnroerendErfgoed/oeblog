@@ -86,7 +86,11 @@ added the sitemap with the period after we added it. This graph clearly
 show that adding the sitemap quickly increased our coverage. We have not yet
 reached full coverage for the entire site. Currently some 220.000 pages are
 indexed. Google chooses how and when it indexes sitemaps, so we can't predict
-how long it will take or if it will ever be completed.
+how long it will take or if it will ever be completed. Ourr current
+observations are that it's been stable ever since reaching the 220.000 mark,
+even with a slight downward trend. This seems to be caused by the cleanup of older
+links to systems that now redirect to this new image database, but the picture
+is not completely clear.
 
 *Search performance for https://beeldbank.onroerenderfgoed.be before and after the
 sitemap was introduced (mid oktober)*
@@ -99,7 +103,8 @@ use to have 5-10 people ckicking through every day, we are seeing between 30
 and 40 new clicks. The relative percentage of people who click through hasn't
 really changed, but off course the absolute numbers have.
 
-As we have seen, creating a sitemap is a bit of work, but it does increase your
-site's visibility in search results tremendously. So, give it a go and add a
+As we have seen, creating a sitemap is a bit of work, but it's an investment
+that yiels a good return.  It increases your site's visibility in search 
+results tremendously. So, give it a go and add a
 sitemap to your site. `Let us know <ict@onroerenderfgoed.be>`_ if and how it
 worked for you.
