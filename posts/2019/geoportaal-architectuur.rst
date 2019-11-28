@@ -1,4 +1,4 @@
-.. post:: 
+.. post:: 2019-11-28
    :category: services, gis, architecture
    :tags: geoportaal, geoserver
    :author: Koen Van Daele
@@ -168,18 +168,18 @@ integrating the library in a Pyramid environment and also offers a set of
 opinionated JSON views on the upstream services.
 
 The other main component of our Python backend is an open source project called
-`Mapproxy <https://mapproxy.org/>`_. This wonderful library helped us solve what, for a while, was the
-most challenging aspect of building the geoportal: dealing with non-publicly
-accessible spatial data. Our prime example is a database of archaeological
-findspots. For several reasons, this database and the accompanying GIS data, is
-not available to the general public. The data is not part of INSPIRE, but does
-have WMS/WFS services in our own Geoserver instance. This service can be
+`Mapproxy <https://mapproxy.org/>`_. This wonderful library helped us solve what, 
+for a while, was the most challenging aspect of building the geoportal: dealing 
+with non-publicly accessible spatial data. Our prime example is a database of 
+archaeological findspots. For several reasons, this database and the accompanying 
+GIS data, is not available to the general public. The data is not part of INSPIRE,
+but does have WMS/WFS services in our own `Geoserver` instance. This service can be
 protected by using username/password. Off course, if we would just include this
 service in our frontend code, we would be exposing the username and password to
 clients. Luckily, Mapproxy makes this easy to solve. The services are proxied
 on our geoportal server, but with Mapproxy intercepting all calls and doing
 authentication and authorisation on the supplied credentials. This way, we can
-transform the typical Pyramid authentication/authorisation policies we use in
+transform the typical `Pyramid` authentication/authorisation policies we use in
 all our webapplications to statements about the configured GIS layers.
 
 Apart from this essential security related proxying, we also proxy
@@ -187,10 +187,13 @@ WMS GetFeatureInfo requests through Mapproxy, again to avoid potential CORS issu
 In the near future we might also be using it's caching features, although we
 haven't done so this far.
 
-All in all, our geoportal has proven to be an important online platform for
-us. It has been in use for years now and is used quite a lot. The cost of
+All in all, our `geoportal <https://geo.onroerenderfgoed.be>`_ has proven to 
+be an important online platform for us. It has been in use for years now and 
+is used by some 12.000 people every month, in fairly intensive sessions. The cost of
 building and maintaining it however, has been fairly low. The portal itself
-requires very little when it comes to hardware to run on and has a very low
-footrpint when running. Interested in our setup, have a look at our software
-libraries at `Github <https://github.com/onroerenderfgoed>`_ or drop us a line at
-ict@onroerenderfgoed.be
+requires very little resources to run on and has a very low
+footprint when running. Most of the heavy lifting is done by the underlying
+services that are also used for other applications and other processes. 
+Interested in our setup?  Browse the geoportal, have a look at our software
+libraries at `Github <https://github.com/onroerenderfgoed>`_, read some more 
+:ref:`category-GIS` related blog posts or drop us a line at ict@onroerenderfgoed.be
