@@ -77,7 +77,7 @@ blog_languages = {
 # Default is ``0``, meaning no image.  Setting this to ``1`` will include
 # the first image, when available, to the excerpt.  This option can be set
 # on a per post basis using :rst:dir:`post` directive option ``image``.
-#post_auto_image = 0
+#post_auto_image = 1
 
 # Number of seconds (default is ``5``) that a redirect page waits before
 # refreshing the page to redirect to the post.

@@ -10,7 +10,7 @@ We are the Hypermedia!
 Within the Flemish Government, there is a central governing body that
 coordinates matters on Information and ICT policies. Under the umbrella of this
 body, several taksforces exist, one of them being the `OSLO Datastandards
-https://informatievlaanderen.github.io/handreikingOslo/`_ taskforce. This 
+<https://informatievlaanderen.github.io/handreikingOslo/>`_ taskforce. This 
 taskforce creates standards, semantic models and tooling for Flemish government agency 
 and other connected partners. One of the projects that ran in 2018, was the
 creation of a `Generic Hypermedia API <https://github.com/Informatievlaanderen/generieke-hypermedia-api>`_ 

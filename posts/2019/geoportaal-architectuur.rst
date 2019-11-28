@@ -1,5 +1,5 @@
 .. post:: 2019-11-28
-   :category: services, gis, architecture
+   :category: services, GIS, architecture
    :tags: geoportaal, geoserver
    :author: Koen Van Daele
    :language: en
@@ -7,14 +7,17 @@
 Flanders Heritage Geoportal: All Together Now!
 ==============================================
 
-.. image:: geoportaal_2014.png
-
-*The Flanders Heritage geoportal in 2014*
 
 `Flanders Heritage <https://www.onroerenderfgoed.be>`_ has had a `geoportal
 <https://geo.onroerenderfgoed.be>`_ since 2013. Although it has grown and
 transformed over the years, the basic goals and the architectural design have
-remained largely unchanged. Our first and main requirement was that we wanted
+remained largely unchanged.
+
+.. image:: geoportaal_2014.png
+
+*The Flanders Heritage geoportal in 2014*
+
+Our first and main requirement was that we wanted
 something that was easy to use for a large userbase. We had observed that other
 geoportals tended to cater to GIS professionals and quite often sought to
 build an online version of a desktop GIS. This creates a web application that
@@ -80,7 +83,7 @@ code was written several years ago, it still uses a rather old Javascript
 framework, `Dojo <https://dojotoolkit.org>`_. The mapping interface uses
 `Openlayers <https://openlayers.org>`_ (and `PROJ 4 <http://proj4js.org/>`_). 
 The HTML and CSS comes from our implementation of the Flemish corporate style
-for websites using the `Zurb Foundation framework <https://foundation.zurb.com/>`_`.
+for websites using the `Zurb Foundation framework <https://foundation.zurb.com/>`_.
 The geoportal frontend communicates entirely through services with either our
 own geoportal backend or other webservices.
 
