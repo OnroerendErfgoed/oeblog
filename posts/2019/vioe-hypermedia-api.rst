@@ -9,15 +9,15 @@ We are the Hypermedia!
 
 Within the Flemish Government, there is a central governing body that
 coordinates matters on Information and ICT policies. Under the umbrella of this
-body, several taksforces exist, one of them being the `OSLO Datastandards
+body, several taskforces exist, one of them being the `OSLO Datastandards
 <https://informatievlaanderen.github.io/handreikingOslo/>`_ taskforce. This 
-taskforce creates standards, semantic models and tooling for Flemish government agency 
+taskforce creates standards, semantic models and tooling for Flemish government agencies 
 and other connected partners. One of the projects that ran in 2018, was the
 creation of a `Generic Hypermedia API <https://github.com/Informatievlaanderen/generieke-hypermedia-api>`_ 
 standard, a set of guidelines and building blocks that aim to transform REST
-services into more Hypermedia driven services that would be more interoperable.
-The first version of this standard was approved on november 8, 2018 and
-contains three building blocks: language, CRUD and pagination.
+services into more Hypermedia driven services. This would make them more
+interoperable. The first version of this standard was approved on november 8, 2018
+and contains three building blocks: language, CRUD and pagination.
 
 Pagination. Web scale
 ---------------------
@@ -29,14 +29,14 @@ specified by
 https://github.com/Informatievlaanderen/generieke-hypermedia-api/blob/master/paginering.md#http
 and detailed in https://tools.ietf.org/html/rfc5988.
 
-If we want to see this in action, we need to link at the `Link` http header.
-There are several ways to do this. You can use a commandline tool such as curl,
+If we want to see this in action, we need to look at the `Link` http header.
+There are several ways to do this. You can use a commandline tool such as cURL,
 a web browser plugin or a standalone REST client. Whichever one you use, should
-be able to show you this information. In our examples we'll be using CURL, a
+be able to show you this information. In our examples we'll be using cURL, a
 tool that is generally present or easy to install on a Linux or Mac computer.
 
 Suppose we are interested in books and documents about `Knokke`, a coastal town
-in Flanders. We can do this by using the REST api at
+in Flanders (Hi mom!). We can learn to do this by looking at the REST api docs at
 https://bib.onroerenderfgoed.be/api_docs. This teaches us that we can call 
 https://bib.onroerenderfgoed.be/werken with the `titel` parameter. So, 
 https://bib.onroerenderfgoed.be/werken?titel=knokke gives us books that contain
@@ -84,16 +84,16 @@ it's getting back. We might be tempted to calculate that if there
 are 17 pages and each pages contains at most 10 records, there are between 161
 and 170 results. But the server is not obliged to put any of this information
 in the link or to honor anything about it. The link should treated as just
-that, a link, and it could just have well been something that is not
+that, a link. It could just as well have been something that is not
 interpretable. This does reveal one major weakness of using the `Link` header
-for pagination purposes, there's no mechanism to indicate how manty results
-the are or how many links the client will need to follow to reach the end of
+for pagination purposes. There's no mechanism to indicate how many results
+there are or how many links the client will need to follow to reach the end of
 the result set. AS far as the client is concerned, there's a next link and a
 last link. If there's no next link, we're at the last page and if
 the next and last links are identical, we're at the last-but-one page. But
-there's no way to discern when we're in the middle how far away we are from the
+there's no way to discern when we're in the middle or how far away we are from the
 end. On the other hand, our client needs no knowledge whatsoever of the
-structure inherent in our URL's. It does not need to understand if there's a
+structure inherent in our URL's. It does not need to understand there's a
 `page` or a `pagina` parameter or `limit` and `offset` parameters or other
 simiar mechanisms for pagination. This allows us to reuse client code for lots
 of different webservices. All the client needs to know is that if there's a
@@ -115,15 +115,16 @@ through the `Link` header. In Python, it's common to use the
 for doing calls to REST services. It turns out that we're even more fortunate,
 since `requests` has built in support for the `Link` header. This makes it dead
 simple to iterate over all the results. For this little excercise, we're
-fetching all the images, erfgoedobjecten, aanduidingsobjecten and themas from
-the municipality of `Knokke-Heist`. It takes very little effort to write and
-delivers a mass of URI's at our feet.
+fetching all the images (:ref:`beeldbank-zoeken`), themas (:ref:`inventaris-themas-personen-gebeurtenissen`), 
+erfgoedobjecten and aanduidingsobjecten (:ref:`inventaris-erfgoedobjecten-aanduidingsobjecten`)
+from the municipality of `Knokke-Heist`. It takes very little effort to write and
+drops a mass of URI's at our feet.
 
 .. literalinclude:: link_header.py
     :language: python
 
 If we execute this command, we now get a big, long list of URI's on our screen.
-It works perfectly, but it's not that satisfying. A URI might be good for a
+It works well, but it's not that satisfying. A URI might be good for a
 machine, but we don't really know what it represents. So, what can we do?
 
 No context, no information
@@ -165,8 +166,9 @@ that can be described with a `title` from the Dublin Core Terms vocabulary.
 Quite common in JSON-LD would be to assign a type to the resource we're talking
 about. We might know this record comes from the image database, but it's
 currently not reflected in our data. Once we add data from the inventory we
-might not be able to tell the difference anymore. In JSON-LD we would add an 
-`@type` key and set it to the URI of a class from an RDF vocabulary like this:
+might not be able to tell the difference anymore. In JSON-LD we can add a 
+`@type` key to make this explicit. We set it to the URI of a class from an 
+RDF vocabulary like this:
 
 .. code-block:: json-ld
 
@@ -181,22 +183,22 @@ Once More, with Feeling
 -----------------------
 
 We'll use JSON-LD to enhance our script. We want to homogenise our dataset of
-all information from `Knokke-Heist` so we are left with only records having the
+all information about `Knokke-Heist`, so we are left with only records having the
 same structure. We've made two JSON-LD contexts, one for the image database and
-a second one for the three datasets originating from our inventory since their
-datamodels are extremely similar. The datasets don't normally include the type
-of resource they contain but we do want to be able to tell the difference in
-our final dataset, so we'll add those here. Our inventory systems have a field
-called `locatie_samenvatting` that provides a summary of the geographic
-location of an object. While the summary algorithm can be fairly complicated
+a second one for the three datasets originating from our inventory. Because the 
+datamodels for these three datasets are extremely similar datamodels. The datasets 
+don't normally include the type of resource they contain but we do want to be able 
+to tell the difference in our final dataset, so we'll add those here as well. Our 
+inventory system has a field called `locatie_samenvatting` that provides a summary 
+of the geographic location of an object. While the summary algorithm can be fairly complicated
 (there's things that are located in more than one street in more than one
 municiaplity or even more than one province), it's very useful for a human to
 quickly see where something can be found. There's no such field in the image
-database and we've created a quick replacement for the dataset (luckily the
+database and we've created a quick replacement summary for this dataset (luckily the
 location of images is much simpler than that of heritage objects).
 
 Our script fetches all data like before, but we now add the type of record
-we're fetching and for images we add a simple location summary. Then we
+we're fetching and a simple location summary for images. Then we
 expand all of them into JSON-LD using the `pyLD
 <https://pypi.org/project/PyLD/>`_ Python library. This leaves us with a
 dataset that is valid JSON-LD, but a bit unwieldy. Every key in the dataset is
@@ -213,7 +215,9 @@ libraries. If you now run this script, you should see a whole list of
 information printed to the screen. It make take a while though, especially for
 the large municipalities like `Gent` or `Antwerpen`. As a little encore, we've
 added another version of this script that doesn't print to the screen, but writes
-our new dataset to a csv for further processing.
+our new dataset to a csv for further processing. Have a look at the 
+:download:`final set of data for Knokke-Heist <heritage_knokke_heist.csv>` this
+script produces or modify the script to generate your own dataset.
 
 .. literalinclude:: link_header_jsonld_csv.py
     :language: python
