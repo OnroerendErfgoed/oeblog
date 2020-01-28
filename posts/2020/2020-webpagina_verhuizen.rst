@@ -106,7 +106,7 @@ kan je `de parochiekerk Sint-Petrus en Sint-Paulus te Hansbeke
 onder het oude Melanie nummer `OO001175`, het equivalente Bredero nummer 
 `4.01/44049/119.1` en de nieuwe URI `https://id.erfgoed.net/aanduidingsobjecten/10535`.
 
-Het `project beschermingsdatabank <https://inventaris.onroerenderfgoed.be/gebeurtenissen/1028`_ 
+Het `project beschermingsdatabank <https://inventaris.onroerenderfgoed.be/gebeurtenissen/1028>`_ 
 omvatte onder andere `het overzetten van beschermde objecten uit Bredero naar de 
 aanduidingsobjecten <https://www.youtube.com/watch?v=Mjh72pJZyvg>`_. Dit ging 
 gepaard met een grote aandacht voor data-kwaliteit, een herevaluatie van oude gegevens en
