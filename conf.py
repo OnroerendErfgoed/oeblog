@@ -40,7 +40,8 @@ blog_authors = {
     'Flanders Heritage Agency': ('Flanders Heritage Agency', 'https://www.onroerenderfgoed.be'),
     'Koen Van Daele': ('Koen van Daele', 'https://github.com/koenedaele'),
     'Tinne Cahy': ('Tinne Cahy', 'https://github.com/cahytinne'),
-    'Maarten Vermeyen': ('Maarten Vermeyen', 'https://maarten.vermeyen.xyz/')
+    'Maarten Vermeyen': ('Maarten Vermeyen', 'https://maarten.vermeyen.xyz/'),
+    'Bram Goessens': ('Bram Goessens', 'https://github.com/goessebr')
 }
 
 
