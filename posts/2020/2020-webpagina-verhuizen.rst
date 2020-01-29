@@ -13,7 +13,7 @@ Ze worden gebouwd op een bepaald punt in de tijd, met bepaalde verwachtingen en
 in een bepaalde technologie. In een ideale wereld is een URL (dat ding dat in
 de adresbalk van je browser staat en aangeeft op welke pagina je bent)
 onveranderlijk. `Cool URI's don't change
-<https://www.w3.org/Provider/Style/URI>`_, weet u wel. In de echt wereld blijft
+<https://www.w3.org/Provider/Style/URI>`_, weet u wel. In de echte wereld blijft
 niets ooit helemaal hetzelfde. `Cool URI's don't change, real ones do. Deal
 with it.` (Voor deze blog mag u URI en URL als synoniemen beschouwen.)
 
