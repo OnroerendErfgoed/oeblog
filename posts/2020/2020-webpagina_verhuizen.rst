@@ -24,8 +24,8 @@ we op de oude URL een doorverwijzing, ook gekend als een `redirect`, in te stell
 naar een andere webpagina waar dezelfde of gelijkaardige
 informatie kan gevonden worden. Zo kan u nog steeds naar de inventaris
 onroerend erfgoed surfen op het adres https://inventaris.vioe.be, ook al is
-https://inventaris.onroerendererfgoed.be` ondertussen al jaren de canonieke URL.
-En stuurt `https://www.erfgoed.net/beschermingen` u nog steeds naar het
+https://inventaris.onroerendererfgoed.be ondertussen al jaren de canonieke URL.
+En stuurt https://www.erfgoed.net/beschermingen u nog steeds naar het
 zoekformulier voor beschermd erfgoed, ook al bestaat de originele webpagina al
 een klein decennium niet meer.
 
@@ -56,7 +56,7 @@ de inhoud, de beschermde objecten zelf, in een online schaduwdatabank. Ondanks
 dat er toen nog geen sprake was van URI's, werd er wel al een uniek nummer aan
 elk beschermd object toegekend. Die volgden een vast stramien: eerst kwam de 
 `O` (voor object), daarna een letter voor elke provincie (`W`, `O`, `A`, `L`,
-`B`) en tenslotte 6 cijfers voor een nummer tussen 000000 en 999999. Deze
+`B`) en tenslotte 6 cijfers voor een nummer tussen `000000` en `999999`. Deze
 identificator noemen we het Melanie Object Nummer. Zo krijg je dus nummers als
 `OO003255 <https://id.erfgoed.net/aanduidingsobjecten/8230>`_ en 
 `OW000678 <https://id.erfgoed.net/aanduidingsobjecten/12181>`_.
@@ -73,8 +73,8 @@ Toen Monumenten en Landschappen samen ging met Ruimtelijke Ordening, in het
 agentschap Ruimte en Erfgoed, werd er ook gewerkt aan een samenvoeging van de
 informatiesystemen. Melanie werd bedankt voor bewezen diensten, maar haar erfenis 
 leeft verder. Haar taken werden overgenomen door *Bredero*, het 
-dossieropvolgingssysteem dat al sinds jaar en dag werd gebruikt voor ruimtelijke 
-ordening. Ook in dit systeem kwamen de
+dossieropvolgingssysteem dat al sinds jaar en dag werd gebruikt voor Ruimtelijke 
+Ordening. Ook in dit systeem kwamen de
 concepten van een object en een dossier voor. Een Bredero Nummer bestaat
 uit drie delen, gescheiden door forward slashes (`/`). Het eerste deel geeft
 aan om welk soort document het gaat, zoals een beschermd monument, stadsgezicht
@@ -138,7 +138,7 @@ waar je alle aanduidingsobjecten ziet die overeenkomen met dat oud nummer.
 
 Mogelijk heb je nog oudere URL's die er uitzien als `http://paola.erfgoed.net/engine/fiche.php?id=000816&pv=O`.
 Deze werken niet meer, maar ook hier kan je makkelijk het Melanie nummer
-reconstrueren. Neem de waarde van de parameter `ìd`, zet daar de waarde van de
+reconstrueren. Neem de waarde van de parameter `id`, zet daar de waarde van de
 parameter `pv` voor en tenstlotte nog een `O`, dan krijg je `OO000816` en die
 kan je dan weer opzoeken in de nieuwe inventaris onder `ander nummer`. Zo kom
 je uiteindelijk bij `Motte de Hoge Wal in Ertvelde <https://inventaris.onroerenderfgoed.be/aanduidingsobjecten/10965>`_ 
