@@ -126,17 +126,17 @@ Oude urls
 Heb je nog ergens oude URL's in gebruik, dan zal daar steeds een Melanie of
 Bredero nummer in voorkomen. Heb je URl's die dateren van de periode 2012-2016,
 dan zien ze er waarschijnlijk als volgt uit:
-`https://beschermingen.onroerenderfgoed.be/object/id/OO001175` of 
-`https://beschermingen.onroerenderfgoed.be/object/id/4.01/44049/119.1`. Na 2016 werden
+https://beschermingen.onroerenderfgoed.be/object/id/OO001175 of 
+https://beschermingen.onroerenderfgoed.be/object/id/4.01/44049/119.1. Na 2016 werden
 deze doorgestuurd naar een pagina op de inventaris met een URL zoals
-`https://inventaris.onroerenderfgoed.be/erfgoed/beschermd/OO001175`. Op die
+https://inventaris.onroerenderfgoed.be/erfgoed/beschermd/OO001175. Op die
 pagina werden alle gekoppelde aanduidingsobjecten getoond, tenzij er maar 1
 object was. Dan werd de gebruiker doorgestuurd naar dat object. Vandaag de dag
-sturen we dit verkeer naar `https://inventaris.onroerenderfgoed.be/aanduidingsobjecten?ander_nummer=OO001175` 
-of `https://inventaris.onroerenderfgoed.be/aanduidingsobjecten?ander_nummer=4.01/44049/119.1`
+sturen we dit verkeer naar https://inventaris.onroerenderfgoed.be/aanduidingsobjecten?ander_nummer=OO001175 
+of https://inventaris.onroerenderfgoed.be/aanduidingsobjecten?ander_nummer=4.01/44049/119.1
 waar je alle aanduidingsobjecten ziet die overeenkomen met dat oud nummer.
 
-Mogelijk heb je nog oudere URL's die er uitzien als `http://paola.erfgoed.net/engine/fiche.php?id=000816&pv=O`.
+Mogelijk heb je nog oudere URL's die er uitzien als http://paola.erfgoed.net/engine/fiche.php?id=000816&pv=O.
 Deze werken niet meer, maar ook hier kan je makkelijk het Melanie nummer
 reconstrueren. Neem de waarde van de parameter `id`, zet daar de waarde van de
 parameter `pv` voor en tenstlotte nog een `O`, dan krijg je `OO000816` en die
