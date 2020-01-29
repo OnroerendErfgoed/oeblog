@@ -41,7 +41,8 @@ blog_authors = {
     'Koen Van Daele': ('Koen van Daele', 'https://github.com/koenedaele'),
     'Tinne Cahy': ('Tinne Cahy', 'https://github.com/cahytinne'),
     'Maarten Vermeyen': ('Maarten Vermeyen', 'https://maarten.vermeyen.xyz/'),
-    'Bram Goessens': ('Bram Goessens', 'https://github.com/goessebr')
+    'Bram Goessens': ('Bram Goessens', 'https://github.com/goessebr'),
+    'Sam Kuylen': ('Sam Kuylen', 'https://github.com/kuylensa')
 }
 
 

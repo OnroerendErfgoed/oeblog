@@ -1,7 +1,7 @@
 .. post:: 
    :category: inventory, architecture
    :tags: inventaris, aanduidingsobjecten
-   :author: Koen Van Daele, Bram Goessens
+   :author: Koen Van Daele, Bram Goessens, Sam Kuylen
    :language: nl
 
 Ook een webpagina kan verhuizen
