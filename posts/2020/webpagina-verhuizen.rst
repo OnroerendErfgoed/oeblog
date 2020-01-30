@@ -1,4 +1,4 @@
-.. post:: 
+.. post:: 2020-01-31 
    :category: inventory, architecture
    :tags: inventaris, aanduidingsobjecten
    :author: Koen Van Daele, Bram Goessens, Sam Kuylen
