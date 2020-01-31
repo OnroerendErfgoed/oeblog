@@ -106,6 +106,11 @@ kan je `de parochiekerk Sint-Petrus en Sint-Paulus te Hansbeke
 onder het oude Melanie nummer `OO001175`, het equivalente Bredero nummer 
 `4.01/44049/119.1` en de nieuwe URI `https://id.erfgoed.net/aanduidingsobjecten/10535`.
 
+.. image:: andere_nummers_zoeken.png
+
+*Zoeken naar Melanie of Bredero nummers op* https://inventaris.onroerenderfgoed.be/aanduidingsobjecten/zoeken
+
+
 Het `project beschermingsdatabank <https://inventaris.onroerenderfgoed.be/gebeurtenissen/1028>`_ 
 omvatte onder andere `het overzetten van beschermde objecten uit Bredero naar de 
 aanduidingsobjecten <https://www.youtube.com/watch?v=Mjh72pJZyvg>`_. Dit ging 
@@ -118,7 +123,7 @@ eerder uitzondering dan regel. Om het voor jullie makkelijk te maken kan je
 simpelweg zoeken op een oud nummer en zien met welk aanduidingsobject dat
 overeen komt. Daarvoor ga je naar het `zoekformulier van de aanduidingsobjecten
 <https://inventaris.onroerenderfgoed.be/aanduidingsobjecten/zoeken>`_ en tik je
-onderaan bij `Ander nummer?` het Melanie of Bredero nummer in. 
+onderaan bij `Ander nummer?` het Melanie of Bredero nummer in.
 
 Oude urls
 ---------
