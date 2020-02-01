@@ -66,7 +66,7 @@ ook Melanie Dossier Nummers. Die hadden een gelijkaardige structuur, maar
 begonnen met een `D` in plaats van een `O`. Zo krijg je dus een nummer als
 `DA002388 <https://inventaris.onroerenderfgoed.be/aanduidingsobjecten/5905>`_.
 Het verschil zat hem in het feit dat meerdere objecten samen in één dossier
-konden beschermd worden, `DA002378 <https://inventaris.onroerenderfgoed.be/aanduidingsobjecten?ander_nummer=DA002378` 
+konden beschermd worden, `DA002378 <https://inventaris.onroerenderfgoed.be/aanduidingsobjecten?ander_nummer=DA002378>`_ 
 ging bijvoorbeeld over 4 beschermde monumenten van 1 architect.
 
 Toen Monumenten en Landschappen samen ging met Ruimtelijke Ordening, in het
