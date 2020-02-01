@@ -66,8 +66,8 @@ ook Melanie Dossier Nummers. Die hadden een gelijkaardige structuur, maar
 begonnen met een `D` in plaats van een `O`. Zo krijg je dus een nummer als
 `DA002388 <https://inventaris.onroerenderfgoed.be/aanduidingsobjecten/5905>`_.
 Het verschil zat hem in het feit dat meerdere objecten samen in één dossier
-konden beschermd worden, zo ziten er in `DA002378` 4 beschermde monument van 1
-architect.
+konden beschermd worden, `DA002378 <https://inventaris.onroerenderfgoed.be/aanduidingsobjecten?ander_nummer=DA002378` 
+ging bijvoorbeeld over 4 beschermde monumenten van 1 architect.
 
 Toen Monumenten en Landschappen samen ging met Ruimtelijke Ordening, in het
 agentschap Ruimte en Erfgoed, werd er ook gewerkt aan een samenvoeging van de
@@ -104,7 +104,7 @@ de Vlaamse Overheid
 kan je `de parochiekerk Sint-Petrus en Sint-Paulus te Hansbeke 
 <https://inventaris.onroerenderfgoed.be/aanduidingsobjecten/10535>`_ terugvinden
 onder het oude Melanie nummer `OO001175`, het equivalente Bredero nummer 
-`4.01/44049/119.1` en de nieuwe URI `https://id.erfgoed.net/aanduidingsobjecten/10535`.
+`4.01/44049/119.1` en de nieuwe URI https://id.erfgoed.net/aanduidingsobjecten/10535.
 
 .. image:: andere_nummers_zoeken.png
 
