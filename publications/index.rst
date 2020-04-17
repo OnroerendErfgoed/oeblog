@@ -1,9 +1,17 @@
 Publications
 ============
 
+.. _mckeague2020:
+
+**McKeague, P., Corns, A., Larsson, A., Moreau, A., Posluschny, A., Van Daele, K. and Evans, T. 2020** 
+"One Archaeology: A Manifesto for the Systematic and Effective Use of Mapped 
+Data from Archaeological Fieldwork and Research", *Information* 2020, 11(4),
+222. (`More information <https://doi.org/10.3390/info11040222>`_, 
+`Full Text <https://www.mdpi.com/2078-2489/11/4/222/pdf>`_)
+
 .. _vdvemome2018:
 
-**Van Daele, K., Vermeyen, M., Mortier, S. and Meganck, L. 2018** "When Data 
+**Van Daele, K., Vermeyen, M., Mortier, S. and Meganck, L. 2018:** "When Data 
 Meets the Enterprise: How Flanders Heritage Agency Turned a Merger of
 Organisations into a Confluence of Information", in *Oceans of Data. Proceedings 
 of the 44th Conference on Computer Applications and Quantitative Methods in Archaeology, 
@@ -11,7 +19,7 @@ Oslo 30 March - 3 April 2016*, Archaeopress, Owford, pp.273-283. (:download:`Ful
 
 .. _movdme2017:
 
-**Mortier, S., Van Daele, K. and Meganck, L. 2017** "Calling it what it is.
+**Mortier, S., Van Daele, K. and Meganck, L. 2017:** "Calling it what it is.
 Thesauri in the Flanders Heritage Agency: History, Importance, Use and
 Technological Advances", in ISPRS Annals of the Photogrammetry, Remote Sensing
 and Spatial Information Sciences, Volume IV-2/W2. (`More information
