@@ -71,3 +71,6 @@ CAI-I, De opbouw van een archeologisch beleidsinstrument, IAP-Rapporten 14,
 Instituut voor het Archeologisch Patrimonium, Brussel, pp. 29-48. (`More
 information <https://oar.onroerenderfgoed.be/item/2>`_, `Full Text 
 <https://oar.onroerenderfgoed.be/publicaties/IAPR/14/IAPR014-002.pdf>`_)
+
+.. bibliography::
+   :all:

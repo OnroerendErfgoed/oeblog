@@ -180,6 +180,7 @@ extensions = [
     'alabaster',
     'ablog',
     'sphinxcontrib.httpdomain',
+    'sphinxcontrib.bibtex'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -354,3 +355,9 @@ html_domain_indices = False
 
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'FlandersHeritage-TeamInformationdoc'
+
+# -- Bibliography Options -----------------------------------------------------------
+
+# Location of Bibtex files
+
+bibtex_bibfiles = ['./publications/bibliography/bibliography.bib']
