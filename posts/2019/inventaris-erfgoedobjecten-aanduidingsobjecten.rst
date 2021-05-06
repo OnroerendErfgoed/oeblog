@@ -117,8 +117,7 @@ twee fiches, beiden over een kasteel met tuin, maar telkens met een andere focus
 het kasteel of de tuin. In het beste geval waren de fiches gewoon complementair,
 maar wanneer er redelijk wat tijd zat tussen de twee inventarissen, spraken ze
 elkaar soms gewoon tegen. Ook hier stelde zich de vraag wat er moest gebeuren
-met informatie die verouderd was en moest aangepast worden. (:ref:`On data-driven systems
-and system-driven data <vdmemo2016>`)
+met informatie die verouderd was en moest aangepast worden. (:footcite:`van_daele_data-driven_2016`)
 
 Uiteindelijk gooiden we het roer om. We kwamen tot de conclusie dat het
 essentieel was om twee zaken te scheiden. Enerzijds, de inhoudelijke
@@ -144,9 +143,7 @@ beschermingsdatabank tot een databank van aanduidingsobjecten. De
 term aanduiding haalden we bij `Historic England
 <https://historicengland.org.uk/>`_, waar men van `designation`
 of `aanduiding` spreekt als het formeel toekennen van rechtsgevolgen aan
-erfgoed (`MIDAS Heritage
-<https://historicengland.org.uk/images-books/publications/midas-heritage>`_,
-pp. 65).
+erfgoed (:footcite:`english_heritage_midas_2012`).
 
 Alles is verbonden
 ------------------
@@ -261,3 +258,8 @@ te vatten in een zo begrijpelijk mogelijke vorm die toch zo feitelijk correct
 mogelijk blijft. Natuurlijk blijven we steeds alert voor
 mogelijkheden om onze informatie begrijpelijker en bevattelijker te maken. Heb 
 je zelf nog suggesties, neem dan `contact op met ons <ict@onroerenderfgoed.be>`_.
+
+Bibliografie
+------------
+
+.. footbibliography::

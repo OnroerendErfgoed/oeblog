@@ -78,9 +78,8 @@ een centrale rol speelden. In de nieuwe inventaris, net zoals in al onze andere
 hedendaagse toepassingen, werd deze kaart resoluut getrokken. We hebben
 hiervoor een `Resource Oriented Architecture` ontwikkeld waarin we overstappen
 van enkele grote, monolithische toepassingen naar een systeem van kleinere,
-meer gefocuste toepassingen die elk hun eigen specialisatie hebben. In 
-:ref:`When Data Meets the Enterprise. <vdvemome2018>` 
-gaan we hier uitgebreider op. De nieuwe inventaris vormt nu de centrale component
+meer gefocuste toepassingen die elk hun eigen specialisatie hebben
+(:footcite:`van_daele_when_2018`). De nieuwe inventaris vormt nu de centrale component
 van het netwerk van toepassingen waarop het agentschap zijn werking uitbouwt.
 
 Tenslotte ging het agentschap de voorbije jaren ook aan de slag met nieuwe
@@ -154,7 +153,7 @@ kleine verschillen na, bleken er veel meer gelijkenissen dan verschillen te
 zijn. We begonnen de inventaris dan ook meer als een geïntegreerde inventaris
 te zien. Het digitaliseren van de verschillende inventarissen leidde tot meer
 communicatie en overeenstemming tussen de verschillende erfgoedonderzoekers en
-een intensere samenwerking (:ref:`On data-driven systems and system-driven data <vdmemo2016>`).
+een intensere samenwerking (:footcite:`van_daele_data-driven_2016`).
 
 Samen met de lancering van de beschermingsdatabank als de
 aanduidingsobjecten, lanceerden we de term erfgoedobjecten
@@ -200,3 +199,8 @@ optreden. Dat gaat van nieuwe inzichten in onze eigen materie, het onroerend
 erfgoed, tot nieuwe inzichten in de technologie die 
 we gebruiken om dat erfgoed digitaal te ontsluiten en beheren. Heb je vragen 
 over hoe dit in zijn werk gaat, `aarzel dan niet ze te stellen <ict@onroerenderfgoed.be>`_.
+
+Bibliografie
+------------
+
+.. footbibliography::

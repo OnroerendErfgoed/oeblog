@@ -82,5 +82,5 @@ In the end, theauri are a means. Not an end. Our prime concern is managing
 heritage, not building thesauri. But they do help us tremendously in defining
 what that heritage is, in searching through that heritage and in linking the
 heritage on our local level to the transnational level. If you want to know more
-about our thesauri, have a look at :ref:`Calling it what it is <movdme2017>`,
+about our thesauri, have a look at :cite:t:`mortier_calling_2017`,
 where we explain how we built them and provide you with some do's and don'ts.

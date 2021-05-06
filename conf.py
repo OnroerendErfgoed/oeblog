@@ -360,4 +360,9 @@ htmlhelp_basename = 'FlandersHeritage-TeamInformationdoc'
 
 # Location of Bibtex files
 
-bibtex_bibfiles = ['./publications/bibliography/bibliography.bib']
+bibtex_bibfiles = [
+    './publications/bibliography/OE_blog_publicaties.bib',
+    './publications/bibliography/OE_blog_citaties.bib'
+]
+
+#bibtex_reference_style = 'author_year'
