@@ -7,13 +7,13 @@
 Atramhasis v0.5.0 released
 ==========================
 
-A new version (0.5.0) of :pypi:`Atramhasis <atramhasis>` has been released.
+A new version (0.5.0) of `Atramhasis <https://pypi.org/project/atramhasis/>`_ has been released.
 Atramhasis is an open-source, web-based SKOS editor. You can use it to browse
 SKOS vocabularies, thesauri, authority files, word lists, ... Atramhasis also
 comes with an admin interface you can use to add the concepts and collections of
 your vocabularies.
 
-This release is a major update based on the :pypi:`Skosprovider <skosprovider>`
+This release is a major update based on the `Skosprovider <https://pypi.org/project/skosprovider/>`_
 0.6.0 line of libraries. The most visible change is with the public and admin
 interfaces. These have been completely overhauled to provide a more pleasing
 userexperience. Among other things visitors are now pointed towards popular
