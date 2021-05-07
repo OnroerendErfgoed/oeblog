@@ -36,6 +36,30 @@ https://atramhasis.readthedocs.io/en/latest/customisation.html#creating-concepts
 to see how it works now. For more background, have a look at the pyramid_skosprovider 
 docs at https://pyramid-skosprovider.readthedocs.io/en/0.9.0/install.html
 
+As noted, Atramhasis 0.7.x will be the last version to support Python 2.
+Atramhasis and all related software libraries will stop supporting Python 2 or
+have already done so: 
+
+* `atramhasis <https://pypi.org/project/atramhasis/>`_ will drop support for
+  Python 2 with version `1.0.0`
+* `skosprovider <https://pypi.org/project/skosprovider/>`_ will drop support
+  for Python 2 with version `0.8.0`
+* `language-tags <https://pypi.org/project/language-tags/>`_ dropped support
+  for Python 2 with version `1.0.0`
+* `pyramid_skosprovider <https://pypi.org/project/pyramid_skosprovider/>`_ will
+  drop support for Python 2 with version `0.10.0`
+* `skosprovider_sqlalchemy <https://pypi.org/project/skosprovider-sqlalchemy/>`_ 
+  will drop support for Python 2 with version `0.7.0`
+* `skosprovider_atramhasis
+  <https://pypi.org/project/skosprovider-atramhasis/>`_ dropped support for
+  Python 2 with version `0.4.0`
+* `skosprovider_getty <https://pypi.org/project/skosprovider-getty/>`_ will
+  drop support for Python 2 with version `0.6.0`
+* `skosprovider_rdf <https://pypi.org/project/skosprovider-rdf/>`_ will drop
+  support for Python 2 with version `0.9.0`
+* `skosprovider_heritagedata <https://pypi.org/project/skosprovider_heritagedata/>`_ 
+  is currently unmaintained
+
 We changed the implementation SKOS collections. The default assumption has
 always been that concepts in a collection were also narrower concepts of the 
 collection’s superordinate concept, but the implementation for this was 
