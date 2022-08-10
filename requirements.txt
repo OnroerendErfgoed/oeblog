@@ -1,5 +1,5 @@
-sphinx==3.5.4
-ablog==0.10.17
+sphinx==5.1.1
+ablog==0.10.23
 sphinxcontrib-httpdomain==1.7.0
 sphinxcontrib-bibtex==2.2.0
 oe-sphinx-theme==0.2.0
